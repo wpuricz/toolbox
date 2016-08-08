@@ -25,7 +25,7 @@ public final class Test: Command {
         commandArray += testFlags
         let command = commandArray.joined(separator: " ")
         do {
-            _ = try console.subexecute(command)
+            _ = try console.backgroundExecute(command)
             testBar.finish()
         } catch ConsoleError.subexecute(_, let error) {
             testBar.fail()

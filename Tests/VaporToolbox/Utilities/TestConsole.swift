@@ -2,6 +2,7 @@ import XCTest
 import Console
 import libc
 @testable import VaporToolbox
+import Core
 
 final class TestConsole: ConsoleProtocol {
     var inputBuffer: [String]
@@ -55,15 +56,15 @@ final class TestConsole: ConsoleProtocol {
         }
     }
 
-    func execute(_ command: String) throws {
+    func execute(_ command: String, input: Int32?, output: Int32?, error: Int32?) throws {
         exec(command)
-    }
 
-    func subexecute(_ command: String, input: String) throws -> String {
-        exec(command)
-        return subExecuteOutputBuffer[command] ?? ""
+        if let o = output {
+            let f = FileHandle(fileDescriptor: o)
+            let string = subExecuteOutputBuffer[command] ?? ""
+            f.write(string.bytes)
+        }
     }
-
     private func exec(_ command: String) {
         executeBuffer.append(command)
     }

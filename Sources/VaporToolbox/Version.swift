@@ -26,4 +26,8 @@ public final class Version: Command {
         }
     }
 
+    public func frameworkVersion(arguments: [String]) throws -> String {
+        let run = Run(console: console)
+        return try run.backgroundRun(arguments: ["version"] + arguments)
+    }
 }

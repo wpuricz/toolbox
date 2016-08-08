@@ -25,11 +25,11 @@ public final class SelfInstall: Command {
     public func run(arguments: [String]) throws {
         let file: String
         do {
-            file = try console.subexecute("ls \(executable)")
-        } catch ConsoleError.execute(_) {
+            file = try console.backgroundExecute("ls \(executable)")
+        } catch ConsoleError.subexecute(_) {
             do {
-                file = try console.subexecute("which \(executable)")
-            } catch ConsoleError.execute(_) {
+                file = try console.backgroundExecute("which \(executable)")
+            } catch ConsoleError.subexecute(_) {
                 throw ToolboxError.general("Could not locate executable.")
             }
         }
@@ -38,11 +38,11 @@ public final class SelfInstall: Command {
 
         let command = "mv \(current) /usr/local/bin/vapor"
         do {
-            _ = try console.subexecute(command)
+            _ = try console.backgroundExecute(command)
         } catch ConsoleError.subexecute(_) {
             console.warning("Install failed, trying sudo")
             do {
-                _ = try console.subexecute("sudo \(command)")
+                _ = try console.backgroundExecute("sudo \(command)")
             } catch ConsoleError.subexecute(_) {
                 throw ToolboxError.general("Installation failed.")
             }

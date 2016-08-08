@@ -13,23 +13,6 @@ guard let executable = iterator.next() else {
     throw ConsoleError.noExecutable
 }
 
-func kill() {
-    terminal.killTasks()
-    exit(2)
-}
-signal(SIGINT) { sig in
-    kill()
-}
-signal(SIGQUIT) { sig in
-    kill()
-}
-signal(SIGTERM) { sig in
-    kill()
-}
-signal(SIGHUP) { sig in
-    kill()
-}
-
 do {
     try terminal.run(executable: executable, commands: [
         New(console: terminal),

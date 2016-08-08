@@ -17,14 +17,14 @@ public final class HerokuInit: Command {
 
     public func run(arguments: [String]) throws {
         do {
-            _ = try console.subexecute("which heroku")
+            _ = try console.backgroundExecute("which heroku")
         } catch ConsoleError.subexecute(_, _) {
             console.info("Visit https://toolbelt.heroku.com")
             throw ToolboxError.general("Heroku Toolbelt must be installed.")
         }
 
         do {
-            _ = try console.subexecute("git remote show heroku")
+            _ = try console.backgroundExecute("git remote show heroku")
             throw ToolboxError.general("Git already has a heroku remote.")
         } catch ConsoleError.subexecute(_, _) {
             //continue
@@ -38,7 +38,7 @@ public final class HerokuInit: Command {
         }
 
         do {
-            let message = try console.subexecute("heroku create \(name)")
+            let message = try console.backgroundExecute("heroku create \(name)")
             console.info(message)
         } catch ConsoleError.subexecute(_, let message) {
             throw ToolboxError.general("Unable to create Heroku app: \(message.trim())")
@@ -55,7 +55,7 @@ public final class HerokuInit: Command {
         console.info("Setting buildpack...")
 
         do {
-            _ = try console.subexecute("heroku buildpacks:set \(buildpack)")
+            _ = try console.backgroundExecute("heroku buildpacks:set \(buildpack)")
         } catch ConsoleError.subexecute(_, let message) {
             throw ToolboxError.general("Unable to set buildpack \(buildpack): \(message)")
         }
@@ -64,7 +64,7 @@ public final class HerokuInit: Command {
 
         let procContents = "web: App --env=production --workdir=\"./\""
         do {
-            _ = try console.subexecute("echo \"\(procContents)\" > ./Procfile")
+            _ = try console.backgroundExecute("echo \"\(procContents)\" > ./Procfile")
         } catch ConsoleError.subexecute(_, let message) {
             throw ToolboxError.general("Unable to make Procfile: \(message)")
         }
@@ -79,7 +79,7 @@ public final class HerokuInit: Command {
             dynoBar.start()
 
             do {
-                _ = try console.subexecute("heroku ps:scale web=1")
+                _ = try console.backgroundExecute("heroku ps:scale web=1")
                 dynoBar.finish()
             } catch ConsoleError.subexecute(_, let message) {
                 dynoBar.fail()

@@ -57,7 +57,7 @@ public final class Xcode: Command {
         let command = commandArray.joined(separator: " ")
 
         do {
-            _ = try console.subexecute("\(command) > \(tmpFile) 2>&1")
+            _ = try console.backgroundExecute("\(command) > \(tmpFile) 2>&1")
             xcodeBar.finish()
         } catch ConsoleError.subexecute(_, let message) {
             xcodeBar.fail()
@@ -67,7 +67,7 @@ public final class Xcode: Command {
 
         console.info("Select the `App` scheme to run.")
         do {
-            let version = try console.subexecute("cat .swift-version").trim()
+            let version = try console.backgroundExecute("cat .swift-version").trim()
             console.warning("Make sure Xcode > Toolchains > \(version) is selected.")
         } catch ConsoleError.subexecute(_, let message) {
             console.error("Could not determine Swift version: \(message)")
@@ -76,7 +76,7 @@ public final class Xcode: Command {
         if console.confirm("Open Xcode project?") {
             do {
                 console.print("Opening Xcode project...")
-                _ = try console.subexecute("open *.xcodeproj")
+                _ = try console.backgroundExecute("open *.xcodeproj")
             } catch ConsoleError.subexecute(_) {
                 throw ToolboxError.general("Could not open Xcode project.")
             }

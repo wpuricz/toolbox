@@ -61,7 +61,7 @@ public final class Build: Command {
 
         let command = commandArray.joined(separator: " ")
         do {
-            _ = try console.subexecute(command)
+            _ = try console.backgroundExecute(command)
             buildBar.finish()
         } catch ConsoleError.subexecute(let code, let error) {
             buildBar.fail()
@@ -73,7 +73,7 @@ public final class Build: Command {
             console.print(error)
 
             console.info("Toolchain:")
-            let toolchain = try console.subexecute("which swift").trim()
+            let toolchain = try console.backgroundExecute("which swift").trim()
             console.print(toolchain)
             console.print()
             console.info("Help:")

@@ -34,41 +34,41 @@
 		_LinkFileRef_libc_via_Executable /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_VaporToolbox /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
 		_LinkFileRef_libc_via_VaporToolboxTestSuite /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Progress/Console+ProgressBar.swift" /* Bar/Progress/Console+ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Progress/Console+ProgressBar.swift" /* Bar/Progress/Console+ProgressBar.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Progress/ProgressBar.swift" /* Bar/Progress/ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Progress/ProgressBar.swift" /* Bar/Progress/ProgressBar.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Argument.swift" /* Command/Argument.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Argument.swift" /* Command/Argument.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Command+Print.swift" /* Command/Command+Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Command+Print.swift" /* Command/Command+Print.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Command.swift" /* Command/Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Command.swift" /* Command/Command.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Group.swift" /* Command/Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Group.swift" /* Command/Group.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Option.swift" /* Command/Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Option.swift" /* Command/Option.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Runnable.swift" /* Command/Runnable.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Runnable.swift" /* Command/Runnable.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Value.swift" /* Command/Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Value.swift" /* Command/Value.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Clear/ConsoleClear.swift" /* Console/Clear/ConsoleClear.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Clear/ConsoleClear.swift" /* Console/Clear/ConsoleClear.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Color/ConsoleColor.swift" /* Console/Color/ConsoleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Color/ConsoleColor.swift" /* Console/Color/ConsoleColor.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Ask.swift" /* Console/Console+Ask.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Ask.swift" /* Console/Console+Ask.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Center.swift" /* Console/Console+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Center.swift" /* Console/Console+Center.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Confirm.swift" /* Console/Console+Confirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Confirm.swift" /* Console/Console+Confirm.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Options.swift" /* Console/Console+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Options.swift" /* Console/Console+Options.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Print.swift" /* Console/Console+Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Print.swift" /* Console/Console+Print.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Run.swift" /* Console/Console+Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Run.swift" /* Console/Console+Run.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console.swift" /* Console/Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console.swift" /* Console/Console.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/ConsoleError.swift" /* Console/ConsoleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/ConsoleError.swift" /* Console/ConsoleError.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Style/Console+ConsoleStyle.swift" /* Console/Style/Console+ConsoleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Style/Console+ConsoleStyle.swift" /* Console/Style/Console+ConsoleStyle.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Style/ConsoleStyle.swift" /* Console/Style/ConsoleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Style/ConsoleStyle.swift" /* Console/Style/ConsoleStyle.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Stream/FileHandle+Stream.swift" /* Stream/FileHandle+Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/FileHandle+Stream.swift" /* Stream/FileHandle+Stream.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Stream/Pipe+Stream.swift" /* Stream/Pipe+Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/Pipe+Stream.swift" /* Stream/Pipe+Stream.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Stream/Stream.swift" /* Stream/Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/Stream.swift" /* Stream/Stream.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleColor+Terminal.swift" /* Terminal/ConsoleColor+Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleColor+Terminal.swift" /* Terminal/ConsoleColor+Terminal.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleStyle+Terminal.swift" /* Terminal/ConsoleStyle+Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleStyle+Terminal.swift" /* Terminal/ConsoleStyle+Terminal.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/String+ANSI.swift" /* Terminal/String+ANSI.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/String+ANSI.swift" /* Terminal/String+ANSI.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal+Command.swift" /* Terminal/Terminal+Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal+Command.swift" /* Terminal/Terminal+Command.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal.swift" /* Terminal/Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal.swift" /* Terminal/Terminal.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Utilities/Bool+Polymorphic.swift" /* Utilities/Bool+Polymorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Utilities/Bool+Polymorphic.swift" /* Utilities/Bool+Polymorphic.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Utilities/String+Trim.swift" /* Utilities/String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Utilities/String+Trim.swift" /* Utilities/String+Trim.swift */; };
-		"__src_cc_ref_Packages/Console-0.4.0/Sources/ConsoleExample/main.swift" /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/ConsoleExample/main.swift" /* main.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Bar/Progress/Console+ProgressBar.swift" /* Bar/Progress/Console+ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Bar/Progress/Console+ProgressBar.swift" /* Bar/Progress/Console+ProgressBar.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Bar/Progress/ProgressBar.swift" /* Bar/Progress/ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Bar/Progress/ProgressBar.swift" /* Bar/Progress/ProgressBar.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Command/Argument.swift" /* Command/Argument.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Argument.swift" /* Command/Argument.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Command/Command+Print.swift" /* Command/Command+Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Command+Print.swift" /* Command/Command+Print.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Command/Command.swift" /* Command/Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Command.swift" /* Command/Command.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Command/Group.swift" /* Command/Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Group.swift" /* Command/Group.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Command/Option.swift" /* Command/Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Option.swift" /* Command/Option.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Command/Runnable.swift" /* Command/Runnable.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Runnable.swift" /* Command/Runnable.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Command/Value.swift" /* Command/Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Value.swift" /* Command/Value.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Clear/ConsoleClear.swift" /* Console/Clear/ConsoleClear.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Clear/ConsoleClear.swift" /* Console/Clear/ConsoleClear.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Color/ConsoleColor.swift" /* Console/Color/ConsoleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Color/ConsoleColor.swift" /* Console/Color/ConsoleColor.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Console+Ask.swift" /* Console/Console+Ask.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Ask.swift" /* Console/Console+Ask.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Console+Center.swift" /* Console/Console+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Center.swift" /* Console/Console+Center.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Console+Confirm.swift" /* Console/Console+Confirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Confirm.swift" /* Console/Console+Confirm.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Console+Options.swift" /* Console/Console+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Options.swift" /* Console/Console+Options.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Console+Print.swift" /* Console/Console+Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Print.swift" /* Console/Console+Print.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Console+Run.swift" /* Console/Console+Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Run.swift" /* Console/Console+Run.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Console.swift" /* Console/Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console.swift" /* Console/Console.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/ConsoleError.swift" /* Console/ConsoleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/ConsoleError.swift" /* Console/ConsoleError.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Style/Console+ConsoleStyle.swift" /* Console/Style/Console+ConsoleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Style/Console+ConsoleStyle.swift" /* Console/Style/Console+ConsoleStyle.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Style/ConsoleStyle.swift" /* Console/Style/ConsoleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Style/ConsoleStyle.swift" /* Console/Style/ConsoleStyle.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Stream/FileHandle+Stream.swift" /* Stream/FileHandle+Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Stream/FileHandle+Stream.swift" /* Stream/FileHandle+Stream.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Stream/Pipe+Stream.swift" /* Stream/Pipe+Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Stream/Pipe+Stream.swift" /* Stream/Pipe+Stream.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Stream/Stream.swift" /* Stream/Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Stream/Stream.swift" /* Stream/Stream.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Terminal/ConsoleColor+Terminal.swift" /* Terminal/ConsoleColor+Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Terminal/ConsoleColor+Terminal.swift" /* Terminal/ConsoleColor+Terminal.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Terminal/ConsoleStyle+Terminal.swift" /* Terminal/ConsoleStyle+Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Terminal/ConsoleStyle+Terminal.swift" /* Terminal/ConsoleStyle+Terminal.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Terminal/String+ANSI.swift" /* Terminal/String+ANSI.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Terminal/String+ANSI.swift" /* Terminal/String+ANSI.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Terminal/Terminal+Command.swift" /* Terminal/Terminal+Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Terminal/Terminal+Command.swift" /* Terminal/Terminal+Command.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Terminal/Terminal.swift" /* Terminal/Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Terminal/Terminal.swift" /* Terminal/Terminal.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Utilities/Bool+Polymorphic.swift" /* Utilities/Bool+Polymorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Utilities/Bool+Polymorphic.swift" /* Utilities/Bool+Polymorphic.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Utilities/String+Trim.swift" /* Utilities/String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Utilities/String+Trim.swift" /* Utilities/String+Trim.swift */; };
+		"__src_cc_ref_Packages/Console-0.0.0/Sources/ConsoleExample/main.swift" /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.0.0/Sources/ConsoleExample/main.swift" /* main.swift */; };
 		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Array.swift" /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Array.swift" /* Array.swift */; };
 		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Bool+String.swift" /* Bool+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Bool+String.swift" /* Bool+String.swift */; };
 		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Byte/Byte+Random.swift" /* Byte/Byte+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/Byte+Random.swift" /* Byte/Byte+Random.swift */; };
@@ -128,42 +128,42 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C3B330FE1D590F4D00243C00 /* PBXContainerItemProxy */ = {
+		C3B331291D59113E00243C00 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_libc";
 			remoteInfo = libc;
 		};
-		C3B330FF1D590F4D00243C00 /* PBXContainerItemProxy */ = {
+		C3B3312A1D59113E00243C00 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Strand";
 			remoteInfo = Strand;
 		};
-		C3B331001D590F4D00243C00 /* PBXContainerItemProxy */ = {
+		C3B3312B1D59113E00243C00 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Polymorphic";
 			remoteInfo = Polymorphic;
 		};
-		C3B331011D590F4D00243C00 /* PBXContainerItemProxy */ = {
+		C3B3312C1D59113E00243C00 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Core";
 			remoteInfo = Core;
 		};
-		C3B331021D590F4D00243C00 /* PBXContainerItemProxy */ = {
+		C3B3312D1D59113E00243C00 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Console";
 			remoteInfo = Console;
 		};
-		C3B331031D590F4D00243C00 /* PBXContainerItemProxy */ = {
+		C3B3312E1D59113E00243C00 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
@@ -176,41 +176,41 @@
 		__PBXFileRef_Console_Info.plist /* VaporToolbox.xcodeproj/Console_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VaporToolbox.xcodeproj/Console_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_Core_Info.plist /* VaporToolbox.xcodeproj/Core_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VaporToolbox.xcodeproj/Core_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar/Bar.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bar/Loading/Console+LoadingBar.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar/Loading/LoadingBar.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Progress/Console+ProgressBar.swift" /* Bar/Progress/Console+ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bar/Progress/Console+ProgressBar.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Progress/ProgressBar.swift" /* Bar/Progress/ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar/Progress/ProgressBar.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Argument.swift" /* Command/Argument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Argument.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Command+Print.swift" /* Command/Command+Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Command/Command+Print.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Command.swift" /* Command/Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Command.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Group.swift" /* Command/Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Group.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Option.swift" /* Command/Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Option.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Runnable.swift" /* Command/Runnable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Runnable.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Value.swift" /* Command/Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Value.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Clear/ConsoleClear.swift" /* Console/Clear/ConsoleClear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console/Clear/ConsoleClear.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Color/ConsoleColor.swift" /* Console/Color/ConsoleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console/Color/ConsoleColor.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Ask.swift" /* Console/Console+Ask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Ask.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Center.swift" /* Console/Console+Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Center.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Confirm.swift" /* Console/Console+Confirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Confirm.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Options.swift" /* Console/Console+Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Options.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Print.swift" /* Console/Console+Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Print.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Run.swift" /* Console/Console+Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Run.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console.swift" /* Console/Console.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console/Console.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/ConsoleError.swift" /* Console/ConsoleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console/ConsoleError.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Style/Console+ConsoleStyle.swift" /* Console/Style/Console+ConsoleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Style/Console+ConsoleStyle.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Style/ConsoleStyle.swift" /* Console/Style/ConsoleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console/Style/ConsoleStyle.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/FileHandle+Stream.swift" /* Stream/FileHandle+Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stream/FileHandle+Stream.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/Pipe+Stream.swift" /* Stream/Pipe+Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stream/Pipe+Stream.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/Stream.swift" /* Stream/Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream/Stream.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleColor+Terminal.swift" /* Terminal/ConsoleColor+Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terminal/ConsoleColor+Terminal.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleStyle+Terminal.swift" /* Terminal/ConsoleStyle+Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terminal/ConsoleStyle+Terminal.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/String+ANSI.swift" /* Terminal/String+ANSI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terminal/String+ANSI.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal+Command.swift" /* Terminal/Terminal+Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terminal/Terminal+Command.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal.swift" /* Terminal/Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terminal/Terminal.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Utilities/Bool+Polymorphic.swift" /* Utilities/Bool+Polymorphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities/Bool+Polymorphic.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Utilities/String+Trim.swift" /* Utilities/String+Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities/String+Trim.swift"; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/Console-0.4.0/Sources/ConsoleExample/main.swift" /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar/Bar.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bar/Loading/Console+LoadingBar.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar/Loading/LoadingBar.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Bar/Progress/Console+ProgressBar.swift" /* Bar/Progress/Console+ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bar/Progress/Console+ProgressBar.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Bar/Progress/ProgressBar.swift" /* Bar/Progress/ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar/Progress/ProgressBar.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Argument.swift" /* Command/Argument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Argument.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Command+Print.swift" /* Command/Command+Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Command/Command+Print.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Command.swift" /* Command/Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Command.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Group.swift" /* Command/Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Group.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Option.swift" /* Command/Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Option.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Runnable.swift" /* Command/Runnable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Runnable.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Value.swift" /* Command/Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Value.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Clear/ConsoleClear.swift" /* Console/Clear/ConsoleClear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console/Clear/ConsoleClear.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Color/ConsoleColor.swift" /* Console/Color/ConsoleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console/Color/ConsoleColor.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Ask.swift" /* Console/Console+Ask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Ask.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Center.swift" /* Console/Console+Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Center.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Confirm.swift" /* Console/Console+Confirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Confirm.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Options.swift" /* Console/Console+Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Options.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Print.swift" /* Console/Console+Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Print.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Run.swift" /* Console/Console+Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Run.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console.swift" /* Console/Console.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console/Console.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/ConsoleError.swift" /* Console/ConsoleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console/ConsoleError.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Style/Console+ConsoleStyle.swift" /* Console/Style/Console+ConsoleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Style/Console+ConsoleStyle.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Style/ConsoleStyle.swift" /* Console/Style/ConsoleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console/Style/ConsoleStyle.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Stream/FileHandle+Stream.swift" /* Stream/FileHandle+Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stream/FileHandle+Stream.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Stream/Pipe+Stream.swift" /* Stream/Pipe+Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stream/Pipe+Stream.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Stream/Stream.swift" /* Stream/Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream/Stream.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Terminal/ConsoleColor+Terminal.swift" /* Terminal/ConsoleColor+Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terminal/ConsoleColor+Terminal.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Terminal/ConsoleStyle+Terminal.swift" /* Terminal/ConsoleStyle+Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terminal/ConsoleStyle+Terminal.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Terminal/String+ANSI.swift" /* Terminal/String+ANSI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terminal/String+ANSI.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Terminal/Terminal+Command.swift" /* Terminal/Terminal+Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terminal/Terminal+Command.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Terminal/Terminal.swift" /* Terminal/Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terminal/Terminal.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Utilities/Bool+Polymorphic.swift" /* Utilities/Bool+Polymorphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities/Bool+Polymorphic.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Utilities/String+Trim.swift" /* Utilities/String+Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities/String+Trim.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.0.0/Sources/ConsoleExample/main.swift" /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Array.swift" /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Bool+String.swift" /* Bool+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+String.swift"; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/Byte+Random.swift" /* Byte/Byte+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Byte/Byte+Random.swift"; sourceTree = "<group>"; };
@@ -447,53 +447,53 @@
 		"_______Group_Console" /* Console */ = {
 			isa = PBXGroup;
 			children = (
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Argument.swift" /* Command/Argument.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Command+Print.swift" /* Command/Command+Print.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Command.swift" /* Command/Command.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Group.swift" /* Command/Group.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Option.swift" /* Command/Option.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Runnable.swift" /* Command/Runnable.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Value.swift" /* Command/Value.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Ask.swift" /* Console/Console+Ask.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Center.swift" /* Console/Console+Center.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Confirm.swift" /* Console/Console+Confirm.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Options.swift" /* Console/Console+Options.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Print.swift" /* Console/Console+Print.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Run.swift" /* Console/Console+Run.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console.swift" /* Console/Console.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/ConsoleError.swift" /* Console/ConsoleError.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/FileHandle+Stream.swift" /* Stream/FileHandle+Stream.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/Pipe+Stream.swift" /* Stream/Pipe+Stream.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/Stream.swift" /* Stream/Stream.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleColor+Terminal.swift" /* Terminal/ConsoleColor+Terminal.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleStyle+Terminal.swift" /* Terminal/ConsoleStyle+Terminal.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/String+ANSI.swift" /* Terminal/String+ANSI.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal+Command.swift" /* Terminal/Terminal+Command.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal.swift" /* Terminal/Terminal.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Utilities/Bool+Polymorphic.swift" /* Utilities/Bool+Polymorphic.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Utilities/String+Trim.swift" /* Utilities/String+Trim.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Progress/Console+ProgressBar.swift" /* Bar/Progress/Console+ProgressBar.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Progress/ProgressBar.swift" /* Bar/Progress/ProgressBar.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Clear/ConsoleClear.swift" /* Console/Clear/ConsoleClear.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Color/ConsoleColor.swift" /* Console/Color/ConsoleColor.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Style/Console+ConsoleStyle.swift" /* Console/Style/Console+ConsoleStyle.swift */,
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Style/ConsoleStyle.swift" /* Console/Style/ConsoleStyle.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Argument.swift" /* Command/Argument.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Command+Print.swift" /* Command/Command+Print.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Command.swift" /* Command/Command.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Group.swift" /* Command/Group.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Option.swift" /* Command/Option.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Runnable.swift" /* Command/Runnable.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Command/Value.swift" /* Command/Value.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Ask.swift" /* Console/Console+Ask.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Center.swift" /* Console/Console+Center.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Confirm.swift" /* Console/Console+Confirm.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Options.swift" /* Console/Console+Options.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Print.swift" /* Console/Console+Print.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console+Run.swift" /* Console/Console+Run.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Console.swift" /* Console/Console.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/ConsoleError.swift" /* Console/ConsoleError.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Stream/FileHandle+Stream.swift" /* Stream/FileHandle+Stream.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Stream/Pipe+Stream.swift" /* Stream/Pipe+Stream.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Stream/Stream.swift" /* Stream/Stream.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Terminal/ConsoleColor+Terminal.swift" /* Terminal/ConsoleColor+Terminal.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Terminal/ConsoleStyle+Terminal.swift" /* Terminal/ConsoleStyle+Terminal.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Terminal/String+ANSI.swift" /* Terminal/String+ANSI.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Terminal/Terminal+Command.swift" /* Terminal/Terminal+Command.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Terminal/Terminal.swift" /* Terminal/Terminal.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Utilities/Bool+Polymorphic.swift" /* Utilities/Bool+Polymorphic.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Utilities/String+Trim.swift" /* Utilities/String+Trim.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Bar/Progress/Console+ProgressBar.swift" /* Bar/Progress/Console+ProgressBar.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Bar/Progress/ProgressBar.swift" /* Bar/Progress/ProgressBar.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Clear/ConsoleClear.swift" /* Console/Clear/ConsoleClear.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Color/ConsoleColor.swift" /* Console/Color/ConsoleColor.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Style/Console+ConsoleStyle.swift" /* Console/Style/Console+ConsoleStyle.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/Console/Console/Style/ConsoleStyle.swift" /* Console/Style/ConsoleStyle.swift */,
 				__PBXFileRef_Console_Info.plist /* VaporToolbox.xcodeproj/Console_Info.plist */,
 			);
 			name = Console;
-			path = "Packages/Console-0.4.0/Sources/Console";
+			path = "Packages/Console-0.0.0/Sources/Console";
 			sourceTree = "<group>";
 		};
 		"_______Group_ConsoleExample" /* ConsoleExample */ = {
 			isa = PBXGroup;
 			children = (
-				"__PBXFileRef_Packages/Console-0.4.0/Sources/ConsoleExample/main.swift" /* main.swift */,
+				"__PBXFileRef_Packages/Console-0.0.0/Sources/ConsoleExample/main.swift" /* main.swift */,
 			);
 			name = ConsoleExample;
-			path = "Packages/Console-0.4.0/Sources/ConsoleExample";
+			path = "Packages/Console-0.0.0/Sources/ConsoleExample";
 			sourceTree = "<group>";
 		};
 		"_______Group_Core" /* Core */ = {
@@ -834,40 +834,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Argument.swift" /* Command/Argument.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Command+Print.swift" /* Command/Command+Print.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Command.swift" /* Command/Command.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Group.swift" /* Command/Group.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Option.swift" /* Command/Option.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Runnable.swift" /* Command/Runnable.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Value.swift" /* Command/Value.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Ask.swift" /* Console/Console+Ask.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Center.swift" /* Console/Console+Center.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Confirm.swift" /* Console/Console+Confirm.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Options.swift" /* Console/Console+Options.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Print.swift" /* Console/Console+Print.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Run.swift" /* Console/Console+Run.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console.swift" /* Console/Console.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/ConsoleError.swift" /* Console/ConsoleError.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Stream/FileHandle+Stream.swift" /* Stream/FileHandle+Stream.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Stream/Pipe+Stream.swift" /* Stream/Pipe+Stream.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Stream/Stream.swift" /* Stream/Stream.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleColor+Terminal.swift" /* Terminal/ConsoleColor+Terminal.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleStyle+Terminal.swift" /* Terminal/ConsoleStyle+Terminal.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/String+ANSI.swift" /* Terminal/String+ANSI.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal+Command.swift" /* Terminal/Terminal+Command.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal.swift" /* Terminal/Terminal.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Utilities/Bool+Polymorphic.swift" /* Utilities/Bool+Polymorphic.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Utilities/String+Trim.swift" /* Utilities/String+Trim.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Progress/Console+ProgressBar.swift" /* Bar/Progress/Console+ProgressBar.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Progress/ProgressBar.swift" /* Bar/Progress/ProgressBar.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Clear/ConsoleClear.swift" /* Console/Clear/ConsoleClear.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Color/ConsoleColor.swift" /* Console/Color/ConsoleColor.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Style/Console+ConsoleStyle.swift" /* Console/Style/Console+ConsoleStyle.swift in Sources */,
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Style/ConsoleStyle.swift" /* Console/Style/ConsoleStyle.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Command/Argument.swift" /* Command/Argument.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Command/Command+Print.swift" /* Command/Command+Print.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Command/Command.swift" /* Command/Command.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Command/Group.swift" /* Command/Group.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Command/Option.swift" /* Command/Option.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Command/Runnable.swift" /* Command/Runnable.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Command/Value.swift" /* Command/Value.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Console+Ask.swift" /* Console/Console+Ask.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Console+Center.swift" /* Console/Console+Center.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Console+Confirm.swift" /* Console/Console+Confirm.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Console+Options.swift" /* Console/Console+Options.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Console+Print.swift" /* Console/Console+Print.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Console+Run.swift" /* Console/Console+Run.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Console.swift" /* Console/Console.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/ConsoleError.swift" /* Console/ConsoleError.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Stream/FileHandle+Stream.swift" /* Stream/FileHandle+Stream.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Stream/Pipe+Stream.swift" /* Stream/Pipe+Stream.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Stream/Stream.swift" /* Stream/Stream.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Terminal/ConsoleColor+Terminal.swift" /* Terminal/ConsoleColor+Terminal.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Terminal/ConsoleStyle+Terminal.swift" /* Terminal/ConsoleStyle+Terminal.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Terminal/String+ANSI.swift" /* Terminal/String+ANSI.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Terminal/Terminal+Command.swift" /* Terminal/Terminal+Command.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Terminal/Terminal.swift" /* Terminal/Terminal.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Utilities/Bool+Polymorphic.swift" /* Utilities/Bool+Polymorphic.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Utilities/String+Trim.swift" /* Utilities/String+Trim.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Bar/Progress/Console+ProgressBar.swift" /* Bar/Progress/Console+ProgressBar.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Bar/Progress/ProgressBar.swift" /* Bar/Progress/ProgressBar.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Clear/ConsoleClear.swift" /* Console/Clear/ConsoleClear.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Color/ConsoleColor.swift" /* Console/Color/ConsoleColor.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Style/Console+ConsoleStyle.swift" /* Console/Style/Console+ConsoleStyle.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/Console/Console/Style/ConsoleStyle.swift" /* Console/Style/ConsoleStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -875,7 +875,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				"__src_cc_ref_Packages/Console-0.4.0/Sources/ConsoleExample/main.swift" /* main.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.0.0/Sources/ConsoleExample/main.swift" /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -990,32 +990,32 @@
 		__Dependency_Console /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Console" /* Console */;
-			targetProxy = C3B331021D590F4D00243C00 /* PBXContainerItemProxy */;
+			targetProxy = C3B3312D1D59113E00243C00 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Core /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Core" /* Core */;
-			targetProxy = C3B331011D590F4D00243C00 /* PBXContainerItemProxy */;
+			targetProxy = C3B3312C1D59113E00243C00 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Polymorphic /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Polymorphic" /* Polymorphic */;
-			targetProxy = C3B331001D590F4D00243C00 /* PBXContainerItemProxy */;
+			targetProxy = C3B3312B1D59113E00243C00 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Strand /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Strand" /* Strand */;
-			targetProxy = C3B330FF1D590F4D00243C00 /* PBXContainerItemProxy */;
+			targetProxy = C3B3312A1D59113E00243C00 /* PBXContainerItemProxy */;
 		};
 		__Dependency_VaporToolbox /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_VaporToolbox" /* VaporToolbox */;
-			targetProxy = C3B331031D590F4D00243C00 /* PBXContainerItemProxy */;
+			targetProxy = C3B3312E1D59113E00243C00 /* PBXContainerItemProxy */;
 		};
 		__Dependency_libc /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_libc" /* libc */;
-			targetProxy = C3B330FE1D590F4D00243C00 /* PBXContainerItemProxy */;
+			targetProxy = C3B331291D59113E00243C00 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

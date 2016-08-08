@@ -17,14 +17,14 @@ public final class DockerBuild: Command {
 
     public func run(arguments: [String]) throws {
         do {
-            _ = try console.subexecute("which docker")
+            _ = try console.backgroundExecute("which docker")
         } catch ConsoleError.subexecute(_, _) {
             console.info("Visit https://www.docker.com/products/docker-toolbox")
             throw ToolboxError.general("Docker not installed.")
         }
 
         do {
-            let contents = try console.subexecute("ls .")
+            let contents = try console.backgroundExecute("ls .")
             if !contents.contains("Dockerfile") {
                 throw ToolboxError.general("No Dockerfile found")
             }
@@ -35,7 +35,7 @@ public final class DockerBuild: Command {
         let swiftVersion: String
 
         do {
-            swiftVersion = try console.subexecute("cat .swift-version").trim()
+            swiftVersion = try console.backgroundExecute("cat .swift-version").trim()
         } catch {
             throw ToolboxError.general("Could not determine Swift version from .swift-version file.")
         }
@@ -45,7 +45,7 @@ public final class DockerBuild: Command {
 
         do {
             let imageName = DockerBuild.imageName(version: swiftVersion)
-            _ = try console.subexecute("docker build --rm -t \(imageName) --build-arg SWIFT_VERSION=\(swiftVersion) .")
+            _ = try console.backgroundExecute("docker build --rm -t \(imageName) --build-arg SWIFT_VERSION=\(swiftVersion) .")
             buildBar.finish()
         } catch ConsoleError.subexecute(_, let message) {
             buildBar.fail()

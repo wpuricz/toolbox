@@ -17,7 +17,7 @@ public final class DockerInit: Command {
 
     public func run(arguments: [String]) throws {
         do {
-            let contents = try console.subexecute("ls .")
+            let contents = try console.backgroundExecute("ls .")
             if contents.contains("Dockerfile") {
                 throw ToolboxError.general("Directory already contains a Dockerfile")
             }
@@ -29,7 +29,7 @@ public final class DockerInit: Command {
         initBar.start()
 
         do {
-            _ = try console.subexecute("curl -L docker.qutheory.io -o Dockerfile")
+            _ = try console.backgroundExecute("curl -L docker.qutheory.io -o Dockerfile")
             initBar.finish()
         } catch ConsoleError.subexecute(_, let message) {
             initBar.fail()
