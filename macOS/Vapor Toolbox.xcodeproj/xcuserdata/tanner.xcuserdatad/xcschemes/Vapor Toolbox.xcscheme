@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C3C0F6C91D516E76000A71E4"
+               BlueprintIdentifier = "C3B330E91D590C2600243C00"
                BuildableName = "Vapor Toolbox.app"
                BlueprintName = "Vapor Toolbox"
-               ReferencedContainer = "container:VaporToolbox.xcodeproj">
+               ReferencedContainer = "container:Vapor Toolbox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C3C0F6C91D516E76000A71E4"
+            BlueprintIdentifier = "C3B330E91D590C2600243C00"
             BuildableName = "Vapor Toolbox.app"
             BlueprintName = "Vapor Toolbox"
-            ReferencedContainer = "container:VaporToolbox.xcodeproj">
+            ReferencedContainer = "container:Vapor Toolbox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C3C0F6C91D516E76000A71E4"
+            BlueprintIdentifier = "C3B330E91D590C2600243C00"
             BuildableName = "Vapor Toolbox.app"
             BlueprintName = "Vapor Toolbox"
-            ReferencedContainer = "container:VaporToolbox.xcodeproj">
+            ReferencedContainer = "container:Vapor Toolbox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C3C0F6C91D516E76000A71E4"
+            BlueprintIdentifier = "C3B330E91D590C2600243C00"
             BuildableName = "Vapor Toolbox.app"
             BlueprintName = "Vapor Toolbox"
-            ReferencedContainer = "container:VaporToolbox.xcodeproj">
+            ReferencedContainer = "container:Vapor Toolbox.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

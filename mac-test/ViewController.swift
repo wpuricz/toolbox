@@ -22,6 +22,7 @@ class ViewController: NSViewController {
         print(doSomethingButton.bezelStyle)
 
         do {
+            try console.execute(".build/debug/App prepare --revert")
             try version.run(arguments: [])
         } catch {
             print(error)

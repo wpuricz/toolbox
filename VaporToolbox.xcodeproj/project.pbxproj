@@ -7,13 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C33362C21D51899300AB5F9E /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33362C11D51899300AB5F9E /* WindowController.swift */; };
-		C3C0F6CD1D516E76000A71E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C0F6CC1D516E76000A71E4 /* AppDelegate.swift */; };
-		C3C0F6CF1D516E76000A71E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C0F6CE1D516E76000A71E4 /* ViewController.swift */; };
-		C3C0F6D11D516E76000A71E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C0F6D01D516E76000A71E4 /* Assets.xcassets */; };
-		C3C0F6D41D516E76000A71E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C0F6D21D516E76000A71E4 /* Main.storyboard */; };
-		C3C0F6D91D516E98000A71E4 /* VaporToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_VaporToolbox" /* VaporToolbox.framework */; };
-		C3C0F6DA1D516F10000A71E4 /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_ConsoleExample /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_Executable /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
 		_LinkFileRef_Console_via_VaporToolbox /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
@@ -135,42 +128,42 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C3C0F6C01D516E5D000A71E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_Strand";
-			remoteInfo = Strand;
-		};
-		C3C0F6C11D516E5D000A71E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_Polymorphic";
-			remoteInfo = Polymorphic;
-		};
-		C3C0F6C21D516E5D000A71E4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_Core";
-			remoteInfo = Core;
-		};
-		C3C0F6C31D516E5D000A71E4 /* PBXContainerItemProxy */ = {
+		C3B330FE1D590F4D00243C00 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_libc";
 			remoteInfo = libc;
 		};
-		C3C0F6C41D516E5D000A71E4 /* PBXContainerItemProxy */ = {
+		C3B330FF1D590F4D00243C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Strand";
+			remoteInfo = Strand;
+		};
+		C3B331001D590F4D00243C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Polymorphic";
+			remoteInfo = Polymorphic;
+		};
+		C3B331011D590F4D00243C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Core";
+			remoteInfo = Core;
+		};
+		C3B331021D590F4D00243C00 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Console";
 			remoteInfo = Console;
 		};
-		C3C0F6C51D516E5D000A71E4 /* PBXContainerItemProxy */ = {
+		C3B331031D590F4D00243C00 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
@@ -180,13 +173,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C33362C11D51899300AB5F9E /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
-		C3C0F6CA1D516E76000A71E4 /* Vapor Toolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vapor Toolbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3C0F6CC1D516E76000A71E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3C0F6CE1D516E76000A71E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C3C0F6D01D516E76000A71E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3C0F6D31D516E76000A71E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C3C0F6D51D516E76000A71E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		__PBXFileRef_Console_Info.plist /* VaporToolbox.xcodeproj/Console_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VaporToolbox.xcodeproj/Console_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_Core_Info.plist /* VaporToolbox.xcodeproj/Core_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VaporToolbox.xcodeproj/Core_Info.plist; sourceTree = SOURCE_ROOT; };
 		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
@@ -299,15 +285,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C3C0F6C71D516E76000A71E4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3C0F6DA1D516F10000A71E4 /* Console.framework in Frameworks */,
-				C3C0F6D91D516E98000A71E4 /* VaporToolbox.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		"___LinkPhase_Console" /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
@@ -401,19 +378,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C3C0F6CB1D516E76000A71E4 /* Vapor Toolbox */ = {
-			isa = PBXGroup;
-			children = (
-				C3C0F6CC1D516E76000A71E4 /* AppDelegate.swift */,
-				C3C0F6CE1D516E76000A71E4 /* ViewController.swift */,
-				C33362C11D51899300AB5F9E /* WindowController.swift */,
-				C3C0F6D01D516E76000A71E4 /* Assets.xcassets */,
-				C3C0F6D21D516E76000A71E4 /* Main.storyboard */,
-				C3C0F6D51D516E76000A71E4 /* Info.plist */,
-			);
-			path = "Vapor Toolbox";
-			sourceTree = "<group>";
-		};
 		Dependencies_ /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
@@ -443,7 +407,6 @@
 				"_____Sources_" /* Sources */,
 				Dependencies_ /* Dependencies */,
 				"_______Tests_" /* Tests */,
-				C3C0F6CB1D516E76000A71E4 /* Vapor Toolbox */,
 				"____Products_" /* Products */,
 			);
 			sourceTree = "<group>";
@@ -460,7 +423,6 @@
 				"_____Product_ConsoleExample" /* <RelativePath:"ConsoleExample"> */,
 				"_____Product_Executable" /* <RelativePath:"Executable"> */,
 				"_____Product_VaporToolbox" /* VaporToolbox.framework */,
-				C3C0F6CA1D516E76000A71E4 /* Vapor Toolbox.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -663,23 +625,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C3C0F6C91D516E76000A71E4 /* Vapor Toolbox */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C3C0F6D61D516E76000A71E4 /* Build configuration list for PBXNativeTarget "Vapor Toolbox" */;
-			buildPhases = (
-				C3C0F6C61D516E76000A71E4 /* Sources */,
-				C3C0F6C71D516E76000A71E4 /* Frameworks */,
-				C3C0F6C81D516E76000A71E4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Vapor Toolbox";
-			productName = "Vapor Toolbox";
-			productReference = C3C0F6CA1D516E76000A71E4 /* Vapor Toolbox.app */;
-			productType = "com.apple.product-type.application";
-		};
 		"______Target_Console" /* Console */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = "_______Confs_Console" /* Build configuration list for PBXNativeTarget "Console" */;
@@ -857,15 +802,7 @@
 		__RootObject_ /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 9999;
-				TargetAttributes = {
-					C3C0F6C91D516E76000A71E4 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 7HLF49C4P5;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "VaporToolbox" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -873,7 +810,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = "___RootGroup_";
 			productRefGroup = "____Products_" /* Products */;
@@ -889,34 +825,11 @@
 				"______Target_Executable" /* Executable */,
 				"______Target_VaporToolbox" /* VaporToolbox */,
 				"______Target_VaporToolboxTestSuite" /* VaporToolboxTestSuite */,
-				C3C0F6C91D516E76000A71E4 /* Vapor Toolbox */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		C3C0F6C81D516E76000A71E4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3C0F6D11D516E76000A71E4 /* Assets.xcassets in Resources */,
-				C3C0F6D41D516E76000A71E4 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		C3C0F6C61D516E76000A71E4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3C0F6CF1D516E76000A71E4 /* ViewController.swift in Sources */,
-				C33362C21D51899300AB5F9E /* WindowController.swift in Sources */,
-				C3C0F6CD1D516E76000A71E4 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CompilePhase_Console /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -1077,153 +990,36 @@
 		__Dependency_Console /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Console" /* Console */;
-			targetProxy = C3C0F6C41D516E5D000A71E4 /* PBXContainerItemProxy */;
+			targetProxy = C3B331021D590F4D00243C00 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Core /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Core" /* Core */;
-			targetProxy = C3C0F6C21D516E5D000A71E4 /* PBXContainerItemProxy */;
+			targetProxy = C3B331011D590F4D00243C00 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Polymorphic /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Polymorphic" /* Polymorphic */;
-			targetProxy = C3C0F6C11D516E5D000A71E4 /* PBXContainerItemProxy */;
+			targetProxy = C3B331001D590F4D00243C00 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Strand /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Strand" /* Strand */;
-			targetProxy = C3C0F6C01D516E5D000A71E4 /* PBXContainerItemProxy */;
+			targetProxy = C3B330FF1D590F4D00243C00 /* PBXContainerItemProxy */;
 		};
 		__Dependency_VaporToolbox /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_VaporToolbox" /* VaporToolbox */;
-			targetProxy = C3C0F6C51D516E5D000A71E4 /* PBXContainerItemProxy */;
+			targetProxy = C3B331031D590F4D00243C00 /* PBXContainerItemProxy */;
 		};
 		__Dependency_libc /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_libc" /* libc */;
-			targetProxy = C3C0F6C31D516E5D000A71E4 /* PBXContainerItemProxy */;
+			targetProxy = C3B330FE1D590F4D00243C00 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		C3C0F6D21D516E76000A71E4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3C0F6D31D516E76000A71E4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		C3C0F6D71D516E76000A71E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 7HLF49C4P5;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Vapor Toolbox/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tannernelson.Vapor-Toolbox";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		C3C0F6D81D516E76000A71E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 7HLF49C4P5;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Vapor Toolbox/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tannernelson.Vapor-Toolbox";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 		_ReleaseConf_Console /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1520,15 +1316,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C3C0F6D61D516E76000A71E4 /* Build configuration list for PBXNativeTarget "Vapor Toolbox" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3C0F6D71D516E76000A71E4 /* Debug */,
-				C3C0F6D81D516E76000A71E4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
 		"___RootConfs_" /* Build configuration list for PBXProject "VaporToolbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

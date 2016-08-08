@@ -1,4 +1,5 @@
 .build
 Packages
 .DS_Store
+VaporToolbox.xcodeproj
 
