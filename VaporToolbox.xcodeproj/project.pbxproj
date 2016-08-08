@@ -1,0 +1,1625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33362C21D51899300AB5F9E /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33362C11D51899300AB5F9E /* WindowController.swift */; };
+		C3C0F6CD1D516E76000A71E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C0F6CC1D516E76000A71E4 /* AppDelegate.swift */; };
+		C3C0F6CF1D516E76000A71E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C0F6CE1D516E76000A71E4 /* ViewController.swift */; };
+		C3C0F6D11D516E76000A71E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C0F6D01D516E76000A71E4 /* Assets.xcassets */; };
+		C3C0F6D41D516E76000A71E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3C0F6D21D516E76000A71E4 /* Main.storyboard */; };
+		C3C0F6D91D516E98000A71E4 /* VaporToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_VaporToolbox" /* VaporToolbox.framework */; };
+		C3C0F6DA1D516F10000A71E4 /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
+		_LinkFileRef_Console_via_ConsoleExample /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
+		_LinkFileRef_Console_via_Executable /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
+		_LinkFileRef_Console_via_VaporToolbox /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
+		_LinkFileRef_Console_via_VaporToolboxTestSuite /* Console.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Console" /* Console.framework */; };
+		_LinkFileRef_Core_via_Console /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
+		_LinkFileRef_Core_via_ConsoleExample /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
+		_LinkFileRef_Core_via_Executable /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
+		_LinkFileRef_Core_via_VaporToolbox /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
+		_LinkFileRef_Core_via_VaporToolboxTestSuite /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Core" /* Core.framework */; };
+		_LinkFileRef_Polymorphic_via_Console /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
+		_LinkFileRef_Polymorphic_via_ConsoleExample /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
+		_LinkFileRef_Polymorphic_via_Executable /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
+		_LinkFileRef_Polymorphic_via_VaporToolbox /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
+		_LinkFileRef_Polymorphic_via_VaporToolboxTestSuite /* Polymorphic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Polymorphic" /* Polymorphic.framework */; };
+		_LinkFileRef_Strand_via_Console /* Strand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Strand" /* Strand.framework */; };
+		_LinkFileRef_Strand_via_ConsoleExample /* Strand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Strand" /* Strand.framework */; };
+		_LinkFileRef_Strand_via_Executable /* Strand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Strand" /* Strand.framework */; };
+		_LinkFileRef_Strand_via_VaporToolbox /* Strand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Strand" /* Strand.framework */; };
+		_LinkFileRef_Strand_via_VaporToolboxTestSuite /* Strand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Strand" /* Strand.framework */; };
+		_LinkFileRef_VaporToolbox_via_Executable /* VaporToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_VaporToolbox" /* VaporToolbox.framework */; };
+		_LinkFileRef_VaporToolbox_via_VaporToolboxTestSuite /* VaporToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_VaporToolbox" /* VaporToolbox.framework */; };
+		_LinkFileRef_libc_via_Console /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
+		_LinkFileRef_libc_via_ConsoleExample /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
+		_LinkFileRef_libc_via_Core /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
+		_LinkFileRef_libc_via_Executable /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
+		_LinkFileRef_libc_via_VaporToolbox /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
+		_LinkFileRef_libc_via_VaporToolboxTestSuite /* libc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_libc" /* libc.framework */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Progress/Console+ProgressBar.swift" /* Bar/Progress/Console+ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Progress/Console+ProgressBar.swift" /* Bar/Progress/Console+ProgressBar.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Progress/ProgressBar.swift" /* Bar/Progress/ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Progress/ProgressBar.swift" /* Bar/Progress/ProgressBar.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Argument.swift" /* Command/Argument.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Argument.swift" /* Command/Argument.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Command+Print.swift" /* Command/Command+Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Command+Print.swift" /* Command/Command+Print.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Command.swift" /* Command/Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Command.swift" /* Command/Command.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Group.swift" /* Command/Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Group.swift" /* Command/Group.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Option.swift" /* Command/Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Option.swift" /* Command/Option.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Runnable.swift" /* Command/Runnable.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Runnable.swift" /* Command/Runnable.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Value.swift" /* Command/Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Value.swift" /* Command/Value.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Clear/ConsoleClear.swift" /* Console/Clear/ConsoleClear.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Clear/ConsoleClear.swift" /* Console/Clear/ConsoleClear.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Color/ConsoleColor.swift" /* Console/Color/ConsoleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Color/ConsoleColor.swift" /* Console/Color/ConsoleColor.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Ask.swift" /* Console/Console+Ask.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Ask.swift" /* Console/Console+Ask.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Center.swift" /* Console/Console+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Center.swift" /* Console/Console+Center.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Confirm.swift" /* Console/Console+Confirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Confirm.swift" /* Console/Console+Confirm.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Options.swift" /* Console/Console+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Options.swift" /* Console/Console+Options.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Print.swift" /* Console/Console+Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Print.swift" /* Console/Console+Print.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Run.swift" /* Console/Console+Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Run.swift" /* Console/Console+Run.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console.swift" /* Console/Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console.swift" /* Console/Console.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/ConsoleError.swift" /* Console/ConsoleError.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/ConsoleError.swift" /* Console/ConsoleError.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Style/Console+ConsoleStyle.swift" /* Console/Style/Console+ConsoleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Style/Console+ConsoleStyle.swift" /* Console/Style/Console+ConsoleStyle.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Style/ConsoleStyle.swift" /* Console/Style/ConsoleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Style/ConsoleStyle.swift" /* Console/Style/ConsoleStyle.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Stream/FileHandle+Stream.swift" /* Stream/FileHandle+Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/FileHandle+Stream.swift" /* Stream/FileHandle+Stream.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Stream/Pipe+Stream.swift" /* Stream/Pipe+Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/Pipe+Stream.swift" /* Stream/Pipe+Stream.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Stream/Stream.swift" /* Stream/Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/Stream.swift" /* Stream/Stream.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleColor+Terminal.swift" /* Terminal/ConsoleColor+Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleColor+Terminal.swift" /* Terminal/ConsoleColor+Terminal.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleStyle+Terminal.swift" /* Terminal/ConsoleStyle+Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleStyle+Terminal.swift" /* Terminal/ConsoleStyle+Terminal.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/String+ANSI.swift" /* Terminal/String+ANSI.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/String+ANSI.swift" /* Terminal/String+ANSI.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal+Command.swift" /* Terminal/Terminal+Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal+Command.swift" /* Terminal/Terminal+Command.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal.swift" /* Terminal/Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal.swift" /* Terminal/Terminal.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Utilities/Bool+Polymorphic.swift" /* Utilities/Bool+Polymorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Utilities/Bool+Polymorphic.swift" /* Utilities/Bool+Polymorphic.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Utilities/String+Trim.swift" /* Utilities/String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Utilities/String+Trim.swift" /* Utilities/String+Trim.swift */; };
+		"__src_cc_ref_Packages/Console-0.4.0/Sources/ConsoleExample/main.swift" /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Console-0.4.0/Sources/ConsoleExample/main.swift" /* main.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Array.swift" /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Array.swift" /* Array.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Bool+String.swift" /* Bool+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Bool+String.swift" /* Bool+String.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Byte/Byte+Random.swift" /* Byte/Byte+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/Byte+Random.swift" /* Byte/Byte+Random.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Byte/Byte.swift" /* Byte/Byte.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/Byte.swift" /* Byte/Byte.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Byte/ByteAliases.swift" /* Byte/ByteAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/ByteAliases.swift" /* Byte/ByteAliases.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Byte/Bytes+Base64.swift" /* Byte/Bytes+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/Bytes+Base64.swift" /* Byte/Bytes+Base64.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Byte/Bytes.swift" /* Byte/Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/Bytes.swift" /* Byte/Bytes.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Byte/BytesConvertible.swift" /* Byte/BytesConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/BytesConvertible.swift" /* Byte/BytesConvertible.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Byte/BytesSlice+PatternMatching.swift" /* Byte/BytesSlice+PatternMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/BytesSlice+PatternMatching.swift" /* Byte/BytesSlice+PatternMatching.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Collection+Safe.swift" /* Collection+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Collection+Safe.swift" /* Collection+Safe.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Dispatch.swift" /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Dispatch.swift" /* Dispatch.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Equatable.swift" /* Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Equatable.swift" /* Equatable.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Extractable.swift" /* Extractable.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Extractable.swift" /* Extractable.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Lock.swift" /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Lock.swift" /* Lock.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/PercentEncoding.swift" /* PercentEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/PercentEncoding.swift" /* PercentEncoding.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Promise.swift" /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Promise.swift" /* Promise.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Result.swift" /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Result.swift" /* Result.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Sequence.swift" /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Sequence.swift" /* Sequence.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/StaticDataBuffer.swift" /* StaticDataBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/StaticDataBuffer.swift" /* StaticDataBuffer.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/String+CaseInsensitiveCompare.swift" /* String+CaseInsensitiveCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/String+CaseInsensitiveCompare.swift" /* String+CaseInsensitiveCompare.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/String.swift" /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/String.swift" /* String.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/UnsignedInteger.swift" /* UnsignedInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/Core/UnsignedInteger.swift" /* UnsignedInteger.swift */; };
+		"__src_cc_ref_Packages/Core-0.3.0/Sources/libc/libc.swift" /* libc.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Core-0.3.0/Sources/libc/libc.swift" /* libc.swift */; };
+		"__src_cc_ref_Packages/Polymorphic-0.3.1/Sources/Polymorphic.swift" /* Polymorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Polymorphic-0.3.1/Sources/Polymorphic.swift" /* Polymorphic.swift */; };
+		"__src_cc_ref_Packages/Polymorphic-0.3.1/Sources/String+Polymorphic.swift" /* String+Polymorphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Polymorphic-0.3.1/Sources/String+Polymorphic.swift" /* String+Polymorphic.swift */; };
+		"__src_cc_ref_Packages/Strand-1.6.0/Sources/Strand.swift" /* Strand.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Strand-1.6.0/Sources/Strand.swift" /* Strand.swift */; };
+		__src_cc_ref_Sources/Executable/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Executable/main.swift /* main.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/Build.swift /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/Build.swift /* Build.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/Clean.swift /* Clean.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/Clean.swift /* Clean.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/DockerBuild.swift /* DockerBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/DockerBuild.swift /* DockerBuild.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/DockerEnter.swift /* DockerEnter.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/DockerEnter.swift /* DockerEnter.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/DockerInit.swift /* DockerInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/DockerInit.swift /* DockerInit.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/DockerRun.swift /* DockerRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/DockerRun.swift /* DockerRun.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/Error.swift /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/Error.swift /* Error.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/Fetch.swift /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/Fetch.swift /* Fetch.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/HerokuInit.swift /* HerokuInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/HerokuInit.swift /* HerokuInit.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/HerokuPush.swift /* HerokuPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/HerokuPush.swift /* HerokuPush.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/New.swift /* New.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/New.swift /* New.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/Run.swift /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/Run.swift /* Run.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/SelfInstall.swift /* SelfInstall.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/SelfInstall.swift /* SelfInstall.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/SelfUpdate.swift /* SelfUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/SelfUpdate.swift /* SelfUpdate.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/Test.swift /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/Test.swift /* Test.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/Utilities.swift /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/Utilities.swift /* Utilities.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/Version.swift /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/Version.swift /* Version.swift */; };
+		__src_cc_ref_Sources/VaporToolbox/Xcode.swift /* Xcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/VaporToolbox/Xcode.swift /* Xcode.swift */; };
+		__src_cc_ref_Tests/VaporToolbox/BuildTests.swift /* BuildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/VaporToolbox/BuildTests.swift /* BuildTests.swift */; };
+		__src_cc_ref_Tests/VaporToolbox/CleanTests.swift /* CleanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/VaporToolbox/CleanTests.swift /* CleanTests.swift */; };
+		__src_cc_ref_Tests/VaporToolbox/DockerTests.swift /* DockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/VaporToolbox/DockerTests.swift /* DockerTests.swift */; };
+		__src_cc_ref_Tests/VaporToolbox/HelpTests.swift /* HelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/VaporToolbox/HelpTests.swift /* HelpTests.swift */; };
+		__src_cc_ref_Tests/VaporToolbox/HerokuTests.swift /* HerokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/VaporToolbox/HerokuTests.swift /* HerokuTests.swift */; };
+		__src_cc_ref_Tests/VaporToolbox/NewTests.swift /* NewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/VaporToolbox/NewTests.swift /* NewTests.swift */; };
+		__src_cc_ref_Tests/VaporToolbox/RunTests.swift /* RunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/VaporToolbox/RunTests.swift /* RunTests.swift */; };
+		__src_cc_ref_Tests/VaporToolbox/StringExtTests.swift /* StringExtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/VaporToolbox/StringExtTests.swift /* StringExtTests.swift */; };
+		__src_cc_ref_Tests/VaporToolbox/UpdateTests.swift /* UpdateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/VaporToolbox/UpdateTests.swift /* UpdateTests.swift */; };
+		__src_cc_ref_Tests/VaporToolbox/Utilities/TestConsole.swift /* Utilities/TestConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/VaporToolbox/Utilities/TestConsole.swift /* Utilities/TestConsole.swift */; };
+		__src_cc_ref_Tests/VaporToolbox/UtilsTests.swift /* UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/VaporToolbox/UtilsTests.swift /* UtilsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3C0F6C01D516E5D000A71E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Strand";
+			remoteInfo = Strand;
+		};
+		C3C0F6C11D516E5D000A71E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Polymorphic";
+			remoteInfo = Polymorphic;
+		};
+		C3C0F6C21D516E5D000A71E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Core";
+			remoteInfo = Core;
+		};
+		C3C0F6C31D516E5D000A71E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_libc";
+			remoteInfo = libc;
+		};
+		C3C0F6C41D516E5D000A71E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Console";
+			remoteInfo = Console;
+		};
+		C3C0F6C51D516E5D000A71E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_VaporToolbox";
+			remoteInfo = VaporToolbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C33362C11D51899300AB5F9E /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		C3C0F6CA1D516E76000A71E4 /* Vapor Toolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vapor Toolbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C0F6CC1D516E76000A71E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3C0F6CE1D516E76000A71E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3C0F6D01D516E76000A71E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3C0F6D31D516E76000A71E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3C0F6D51D516E76000A71E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		__PBXFileRef_Console_Info.plist /* VaporToolbox.xcodeproj/Console_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VaporToolbox.xcodeproj/Console_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Core_Info.plist /* VaporToolbox.xcodeproj/Core_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VaporToolbox.xcodeproj/Core_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar/Bar.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bar/Loading/Console+LoadingBar.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar/Loading/LoadingBar.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Progress/Console+ProgressBar.swift" /* Bar/Progress/Console+ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bar/Progress/Console+ProgressBar.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Progress/ProgressBar.swift" /* Bar/Progress/ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar/Progress/ProgressBar.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Argument.swift" /* Command/Argument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Argument.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Command+Print.swift" /* Command/Command+Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Command/Command+Print.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Command.swift" /* Command/Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Command.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Group.swift" /* Command/Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Group.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Option.swift" /* Command/Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Option.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Runnable.swift" /* Command/Runnable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Runnable.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Value.swift" /* Command/Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command/Value.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Clear/ConsoleClear.swift" /* Console/Clear/ConsoleClear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console/Clear/ConsoleClear.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Color/ConsoleColor.swift" /* Console/Color/ConsoleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console/Color/ConsoleColor.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Ask.swift" /* Console/Console+Ask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Ask.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Center.swift" /* Console/Console+Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Center.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Confirm.swift" /* Console/Console+Confirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Confirm.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Options.swift" /* Console/Console+Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Options.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Print.swift" /* Console/Console+Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Print.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Run.swift" /* Console/Console+Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Console+Run.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console.swift" /* Console/Console.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console/Console.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/ConsoleError.swift" /* Console/ConsoleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console/ConsoleError.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Style/Console+ConsoleStyle.swift" /* Console/Style/Console+ConsoleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Console/Style/Console+ConsoleStyle.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Style/ConsoleStyle.swift" /* Console/Style/ConsoleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console/Style/ConsoleStyle.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/FileHandle+Stream.swift" /* Stream/FileHandle+Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stream/FileHandle+Stream.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/Pipe+Stream.swift" /* Stream/Pipe+Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stream/Pipe+Stream.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/Stream.swift" /* Stream/Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream/Stream.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleColor+Terminal.swift" /* Terminal/ConsoleColor+Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terminal/ConsoleColor+Terminal.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleStyle+Terminal.swift" /* Terminal/ConsoleStyle+Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terminal/ConsoleStyle+Terminal.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/String+ANSI.swift" /* Terminal/String+ANSI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terminal/String+ANSI.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal+Command.swift" /* Terminal/Terminal+Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terminal/Terminal+Command.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal.swift" /* Terminal/Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terminal/Terminal.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Utilities/Bool+Polymorphic.swift" /* Utilities/Bool+Polymorphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities/Bool+Polymorphic.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Utilities/String+Trim.swift" /* Utilities/String+Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Utilities/String+Trim.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Console-0.4.0/Sources/ConsoleExample/main.swift" /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Array.swift" /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Bool+String.swift" /* Bool+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+String.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/Byte+Random.swift" /* Byte/Byte+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Byte/Byte+Random.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/Byte.swift" /* Byte/Byte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Byte/Byte.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/ByteAliases.swift" /* Byte/ByteAliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Byte/ByteAliases.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/Bytes+Base64.swift" /* Byte/Bytes+Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Byte/Bytes+Base64.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/Bytes.swift" /* Byte/Bytes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Byte/Bytes.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/BytesConvertible.swift" /* Byte/BytesConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Byte/BytesConvertible.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/BytesSlice+PatternMatching.swift" /* Byte/BytesSlice+PatternMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Byte/BytesSlice+PatternMatching.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Collection+Safe.swift" /* Collection+Safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Safe.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Dispatch.swift" /* Dispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dispatch.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Equatable.swift" /* Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equatable.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Extractable.swift" /* Extractable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extractable.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Lock.swift" /* Lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/PercentEncoding.swift" /* PercentEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentEncoding.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Promise.swift" /* Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Result.swift" /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Sequence.swift" /* Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/StaticDataBuffer.swift" /* StaticDataBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDataBuffer.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/String+CaseInsensitiveCompare.swift" /* String+CaseInsensitiveCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CaseInsensitiveCompare.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/String.swift" /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/UnsignedInteger.swift" /* UnsignedInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsignedInteger.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Core-0.3.0/Sources/libc/libc.swift" /* libc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libc.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Polymorphic-0.3.1/Sources/Polymorphic.swift" /* Polymorphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polymorphic.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Polymorphic-0.3.1/Sources/String+Polymorphic.swift" /* String+Polymorphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Polymorphic.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Strand-1.6.0/Sources/Strand.swift" /* Strand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strand.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Polymorphic_Info.plist /* VaporToolbox.xcodeproj/Polymorphic_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VaporToolbox.xcodeproj/Polymorphic_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Sources/Executable/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/Build.swift /* Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/Clean.swift /* Clean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clean.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/DockerBuild.swift /* DockerBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerBuild.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/DockerEnter.swift /* DockerEnter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerEnter.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/DockerInit.swift /* DockerInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerInit.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/DockerRun.swift /* DockerRun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerRun.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/Error.swift /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/Fetch.swift /* Fetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/HerokuInit.swift /* HerokuInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerokuInit.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/HerokuPush.swift /* HerokuPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerokuPush.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/New.swift /* New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/Run.swift /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/SelfInstall.swift /* SelfInstall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfInstall.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/SelfUpdate.swift /* SelfUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfUpdate.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/Test.swift /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/Utilities.swift /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/Version.swift /* Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/VaporToolbox/Xcode.swift /* Xcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Strand_Info.plist /* VaporToolbox.xcodeproj/Strand_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VaporToolbox.xcodeproj/Strand_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Tests/VaporToolbox/BuildTests.swift /* BuildTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/VaporToolbox/CleanTests.swift /* CleanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/VaporToolbox/DockerTests.swift /* DockerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockerTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/VaporToolbox/HelpTests.swift /* HelpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/VaporToolbox/HerokuTests.swift /* HerokuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerokuTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/VaporToolbox/NewTests.swift /* NewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/VaporToolbox/RunTests.swift /* RunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/VaporToolbox/StringExtTests.swift /* StringExtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/VaporToolbox/UpdateTests.swift /* UpdateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/VaporToolbox/Utilities/TestConsole.swift /* Utilities/TestConsole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities/TestConsole.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/VaporToolbox/UtilsTests.swift /* UtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_VaporToolbox.xcodeproj/Configs/Project.xcconfig /* VaporToolbox.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = VaporToolbox.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
+		__PBXFileRef_VaporToolboxTestSuite_Info.plist /* VaporToolbox.xcodeproj/VaporToolboxTestSuite_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VaporToolbox.xcodeproj/VaporToolboxTestSuite_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_VaporToolbox_Info.plist /* VaporToolbox.xcodeproj/VaporToolbox_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VaporToolbox.xcodeproj/VaporToolbox_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_libc_Info.plist /* VaporToolbox.xcodeproj/libc_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VaporToolbox.xcodeproj/libc_Info.plist; sourceTree = SOURCE_ROOT; };
+		"_____Product_Console" /* Console.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_ConsoleExample" /* <RelativePath:"ConsoleExample"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"ConsoleExample\">"; path = ConsoleExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Core" /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Executable" /* <RelativePath:"Executable"> */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; name = "<RelativePath:\"Executable\">"; path = Executable; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Polymorphic" /* Polymorphic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Polymorphic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Strand" /* Strand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Strand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_VaporToolbox" /* VaporToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VaporToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_VaporToolboxTestSuite" /* <RelativePath:"VaporToolboxTestSuite.xctest"> */ = {isa = PBXFileReference; lastKnownFileType = file; name = "<RelativePath:\"VaporToolboxTestSuite.xctest\">"; path = VaporToolboxTestSuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_libc" /* libc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3C0F6C71D516E76000A71E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C0F6DA1D516F10000A71E4 /* Console.framework in Frameworks */,
+				C3C0F6D91D516E98000A71E4 /* VaporToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Console" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_Strand_via_Console /* Strand.framework in Frameworks */,
+				_LinkFileRef_Polymorphic_via_Console /* Polymorphic.framework in Frameworks */,
+				_LinkFileRef_libc_via_Console /* libc.framework in Frameworks */,
+				_LinkFileRef_Core_via_Console /* Core.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_ConsoleExample" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_Strand_via_ConsoleExample /* Strand.framework in Frameworks */,
+				_LinkFileRef_Polymorphic_via_ConsoleExample /* Polymorphic.framework in Frameworks */,
+				_LinkFileRef_libc_via_ConsoleExample /* libc.framework in Frameworks */,
+				_LinkFileRef_Core_via_ConsoleExample /* Core.framework in Frameworks */,
+				_LinkFileRef_Console_via_ConsoleExample /* Console.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Core" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_libc_via_Core /* libc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Executable" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_Strand_via_Executable /* Strand.framework in Frameworks */,
+				_LinkFileRef_Polymorphic_via_Executable /* Polymorphic.framework in Frameworks */,
+				_LinkFileRef_libc_via_Executable /* libc.framework in Frameworks */,
+				_LinkFileRef_Core_via_Executable /* Core.framework in Frameworks */,
+				_LinkFileRef_Console_via_Executable /* Console.framework in Frameworks */,
+				_LinkFileRef_VaporToolbox_via_Executable /* VaporToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Polymorphic" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Strand" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_VaporToolbox" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_Strand_via_VaporToolbox /* Strand.framework in Frameworks */,
+				_LinkFileRef_Polymorphic_via_VaporToolbox /* Polymorphic.framework in Frameworks */,
+				_LinkFileRef_libc_via_VaporToolbox /* libc.framework in Frameworks */,
+				_LinkFileRef_Core_via_VaporToolbox /* Core.framework in Frameworks */,
+				_LinkFileRef_Console_via_VaporToolbox /* Console.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_VaporToolboxTestSuite" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_Strand_via_VaporToolboxTestSuite /* Strand.framework in Frameworks */,
+				_LinkFileRef_Polymorphic_via_VaporToolboxTestSuite /* Polymorphic.framework in Frameworks */,
+				_LinkFileRef_libc_via_VaporToolboxTestSuite /* libc.framework in Frameworks */,
+				_LinkFileRef_Core_via_VaporToolboxTestSuite /* Core.framework in Frameworks */,
+				_LinkFileRef_Console_via_VaporToolboxTestSuite /* Console.framework in Frameworks */,
+				_LinkFileRef_VaporToolbox_via_VaporToolboxTestSuite /* VaporToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_libc" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3C0F6CB1D516E76000A71E4 /* Vapor Toolbox */ = {
+			isa = PBXGroup;
+			children = (
+				C3C0F6CC1D516E76000A71E4 /* AppDelegate.swift */,
+				C3C0F6CE1D516E76000A71E4 /* ViewController.swift */,
+				C33362C11D51899300AB5F9E /* WindowController.swift */,
+				C3C0F6D01D516E76000A71E4 /* Assets.xcassets */,
+				C3C0F6D21D516E76000A71E4 /* Main.storyboard */,
+				C3C0F6D51D516E76000A71E4 /* Info.plist */,
+			);
+			path = "Vapor Toolbox";
+			sourceTree = "<group>";
+		};
+		Dependencies_ /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_libc" /* libc */,
+				"_______Group_ConsoleExample" /* ConsoleExample */,
+				"_______Group_Console" /* Console */,
+				"_______Group_Strand" /* Strand */,
+				"_______Group_Polymorphic" /* Polymorphic */,
+				"_______Group_Core" /* Core */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		TestProducts_ /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_VaporToolboxTestSuite" /* <RelativePath:"VaporToolboxTestSuite.xctest"> */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Configs_" /* Configs */,
+				"_____Sources_" /* Sources */,
+				Dependencies_ /* Dependencies */,
+				"_______Tests_" /* Tests */,
+				C3C0F6CB1D516E76000A71E4 /* Vapor Toolbox */,
+				"____Products_" /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				TestProducts_ /* Tests */,
+				"_____Product_Strand" /* Strand.framework */,
+				"_____Product_Polymorphic" /* Polymorphic.framework */,
+				"_____Product_Core" /* Core.framework */,
+				"_____Product_libc" /* libc.framework */,
+				"_____Product_Console" /* Console.framework */,
+				"_____Product_ConsoleExample" /* <RelativePath:"ConsoleExample"> */,
+				"_____Product_Executable" /* <RelativePath:"Executable"> */,
+				"_____Product_VaporToolbox" /* VaporToolbox.framework */,
+				C3C0F6CA1D516E76000A71E4 /* Vapor Toolbox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Configs_" /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_VaporToolbox.xcodeproj/Configs/Project.xcconfig /* VaporToolbox.xcodeproj/Configs/Project.xcconfig */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_Executable" /* Executable */,
+				"_______Group_VaporToolbox" /* VaporToolbox */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_Console" /* Console */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Argument.swift" /* Command/Argument.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Command+Print.swift" /* Command/Command+Print.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Command.swift" /* Command/Command.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Group.swift" /* Command/Group.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Option.swift" /* Command/Option.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Runnable.swift" /* Command/Runnable.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Command/Value.swift" /* Command/Value.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Ask.swift" /* Console/Console+Ask.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Center.swift" /* Console/Console+Center.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Confirm.swift" /* Console/Console+Confirm.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Options.swift" /* Console/Console+Options.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Print.swift" /* Console/Console+Print.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console+Run.swift" /* Console/Console+Run.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Console.swift" /* Console/Console.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/ConsoleError.swift" /* Console/ConsoleError.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/FileHandle+Stream.swift" /* Stream/FileHandle+Stream.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/Pipe+Stream.swift" /* Stream/Pipe+Stream.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Stream/Stream.swift" /* Stream/Stream.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleColor+Terminal.swift" /* Terminal/ConsoleColor+Terminal.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleStyle+Terminal.swift" /* Terminal/ConsoleStyle+Terminal.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/String+ANSI.swift" /* Terminal/String+ANSI.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal+Command.swift" /* Terminal/Terminal+Command.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal.swift" /* Terminal/Terminal.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Utilities/Bool+Polymorphic.swift" /* Utilities/Bool+Polymorphic.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Utilities/String+Trim.swift" /* Utilities/String+Trim.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Progress/Console+ProgressBar.swift" /* Bar/Progress/Console+ProgressBar.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Bar/Progress/ProgressBar.swift" /* Bar/Progress/ProgressBar.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Clear/ConsoleClear.swift" /* Console/Clear/ConsoleClear.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Color/ConsoleColor.swift" /* Console/Color/ConsoleColor.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Style/Console+ConsoleStyle.swift" /* Console/Style/Console+ConsoleStyle.swift */,
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/Console/Console/Style/ConsoleStyle.swift" /* Console/Style/ConsoleStyle.swift */,
+				__PBXFileRef_Console_Info.plist /* VaporToolbox.xcodeproj/Console_Info.plist */,
+			);
+			name = Console;
+			path = "Packages/Console-0.4.0/Sources/Console";
+			sourceTree = "<group>";
+		};
+		"_______Group_ConsoleExample" /* ConsoleExample */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Console-0.4.0/Sources/ConsoleExample/main.swift" /* main.swift */,
+			);
+			name = ConsoleExample;
+			path = "Packages/Console-0.4.0/Sources/ConsoleExample";
+			sourceTree = "<group>";
+		};
+		"_______Group_Core" /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Array.swift" /* Array.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Bool+String.swift" /* Bool+String.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Collection+Safe.swift" /* Collection+Safe.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Dispatch.swift" /* Dispatch.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Equatable.swift" /* Equatable.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Extractable.swift" /* Extractable.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Lock.swift" /* Lock.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/PercentEncoding.swift" /* PercentEncoding.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Promise.swift" /* Promise.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Result.swift" /* Result.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Sequence.swift" /* Sequence.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/StaticDataBuffer.swift" /* StaticDataBuffer.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/String+CaseInsensitiveCompare.swift" /* String+CaseInsensitiveCompare.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/String.swift" /* String.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/UnsignedInteger.swift" /* UnsignedInteger.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/Byte+Random.swift" /* Byte/Byte+Random.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/Byte.swift" /* Byte/Byte.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/ByteAliases.swift" /* Byte/ByteAliases.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/Bytes+Base64.swift" /* Byte/Bytes+Base64.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/Bytes.swift" /* Byte/Bytes.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/BytesConvertible.swift" /* Byte/BytesConvertible.swift */,
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/Core/Byte/BytesSlice+PatternMatching.swift" /* Byte/BytesSlice+PatternMatching.swift */,
+				__PBXFileRef_Core_Info.plist /* VaporToolbox.xcodeproj/Core_Info.plist */,
+			);
+			name = Core;
+			path = "Packages/Core-0.3.0/Sources/Core";
+			sourceTree = "<group>";
+		};
+		"_______Group_Executable" /* Executable */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/Executable/main.swift /* main.swift */,
+			);
+			name = Executable;
+			path = Sources/Executable;
+			sourceTree = "<group>";
+		};
+		"_______Group_Polymorphic" /* Polymorphic */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Polymorphic-0.3.1/Sources/Polymorphic.swift" /* Polymorphic.swift */,
+				"__PBXFileRef_Packages/Polymorphic-0.3.1/Sources/String+Polymorphic.swift" /* String+Polymorphic.swift */,
+				__PBXFileRef_Polymorphic_Info.plist /* VaporToolbox.xcodeproj/Polymorphic_Info.plist */,
+			);
+			name = Polymorphic;
+			path = "Packages/Polymorphic-0.3.1/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_Strand" /* Strand */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Strand-1.6.0/Sources/Strand.swift" /* Strand.swift */,
+				__PBXFileRef_Strand_Info.plist /* VaporToolbox.xcodeproj/Strand_Info.plist */,
+			);
+			name = Strand;
+			path = "Packages/Strand-1.6.0/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_VaporToolbox" /* VaporToolbox */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/VaporToolbox/Build.swift /* Build.swift */,
+				__PBXFileRef_Sources/VaporToolbox/Clean.swift /* Clean.swift */,
+				__PBXFileRef_Sources/VaporToolbox/DockerBuild.swift /* DockerBuild.swift */,
+				__PBXFileRef_Sources/VaporToolbox/DockerEnter.swift /* DockerEnter.swift */,
+				__PBXFileRef_Sources/VaporToolbox/DockerInit.swift /* DockerInit.swift */,
+				__PBXFileRef_Sources/VaporToolbox/DockerRun.swift /* DockerRun.swift */,
+				__PBXFileRef_Sources/VaporToolbox/Error.swift /* Error.swift */,
+				__PBXFileRef_Sources/VaporToolbox/Fetch.swift /* Fetch.swift */,
+				__PBXFileRef_Sources/VaporToolbox/HerokuInit.swift /* HerokuInit.swift */,
+				__PBXFileRef_Sources/VaporToolbox/HerokuPush.swift /* HerokuPush.swift */,
+				__PBXFileRef_Sources/VaporToolbox/New.swift /* New.swift */,
+				__PBXFileRef_Sources/VaporToolbox/Run.swift /* Run.swift */,
+				__PBXFileRef_Sources/VaporToolbox/SelfInstall.swift /* SelfInstall.swift */,
+				__PBXFileRef_Sources/VaporToolbox/SelfUpdate.swift /* SelfUpdate.swift */,
+				__PBXFileRef_Sources/VaporToolbox/Test.swift /* Test.swift */,
+				__PBXFileRef_Sources/VaporToolbox/Utilities.swift /* Utilities.swift */,
+				__PBXFileRef_Sources/VaporToolbox/Version.swift /* Version.swift */,
+				__PBXFileRef_Sources/VaporToolbox/Xcode.swift /* Xcode.swift */,
+				__PBXFileRef_VaporToolbox_Info.plist /* VaporToolbox.xcodeproj/VaporToolbox_Info.plist */,
+			);
+			name = VaporToolbox;
+			path = Sources/VaporToolbox;
+			sourceTree = "<group>";
+		};
+		"_______Group_VaporToolboxTestSuite" /* VaporToolboxTestSuite */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Tests/VaporToolbox/BuildTests.swift /* BuildTests.swift */,
+				__PBXFileRef_Tests/VaporToolbox/CleanTests.swift /* CleanTests.swift */,
+				__PBXFileRef_Tests/VaporToolbox/DockerTests.swift /* DockerTests.swift */,
+				__PBXFileRef_Tests/VaporToolbox/HelpTests.swift /* HelpTests.swift */,
+				__PBXFileRef_Tests/VaporToolbox/HerokuTests.swift /* HerokuTests.swift */,
+				__PBXFileRef_Tests/VaporToolbox/NewTests.swift /* NewTests.swift */,
+				__PBXFileRef_Tests/VaporToolbox/RunTests.swift /* RunTests.swift */,
+				__PBXFileRef_Tests/VaporToolbox/StringExtTests.swift /* StringExtTests.swift */,
+				__PBXFileRef_Tests/VaporToolbox/UpdateTests.swift /* UpdateTests.swift */,
+				__PBXFileRef_Tests/VaporToolbox/UtilsTests.swift /* UtilsTests.swift */,
+				__PBXFileRef_Tests/VaporToolbox/Utilities/TestConsole.swift /* Utilities/TestConsole.swift */,
+				__PBXFileRef_VaporToolboxTestSuite_Info.plist /* VaporToolbox.xcodeproj/VaporToolboxTestSuite_Info.plist */,
+			);
+			name = VaporToolboxTestSuite;
+			path = Tests/VaporToolbox;
+			sourceTree = "<group>";
+		};
+		"_______Group_libc" /* libc */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Core-0.3.0/Sources/libc/libc.swift" /* libc.swift */,
+				__PBXFileRef_libc_Info.plist /* VaporToolbox.xcodeproj/libc_Info.plist */,
+			);
+			name = libc;
+			path = "Packages/Core-0.3.0/Sources/libc";
+			sourceTree = "<group>";
+		};
+		"_______Tests_" /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_VaporToolboxTestSuite" /* VaporToolboxTestSuite */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3C0F6C91D516E76000A71E4 /* Vapor Toolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3C0F6D61D516E76000A71E4 /* Build configuration list for PBXNativeTarget "Vapor Toolbox" */;
+			buildPhases = (
+				C3C0F6C61D516E76000A71E4 /* Sources */,
+				C3C0F6C71D516E76000A71E4 /* Frameworks */,
+				C3C0F6C81D516E76000A71E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vapor Toolbox";
+			productName = "Vapor Toolbox";
+			productReference = C3C0F6CA1D516E76000A71E4 /* Vapor Toolbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		"______Target_Console" /* Console */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Console" /* Build configuration list for PBXNativeTarget "Console" */;
+			buildPhases = (
+				CompilePhase_Console /* Sources */,
+				"___LinkPhase_Console" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Strand /* PBXTargetDependency */,
+				__Dependency_Polymorphic /* PBXTargetDependency */,
+				__Dependency_Core /* PBXTargetDependency */,
+				__Dependency_libc /* PBXTargetDependency */,
+			);
+			name = Console;
+			productName = Console;
+			productReference = "_____Product_Console" /* Console.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_ConsoleExample" /* ConsoleExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_ConsoleExample" /* Build configuration list for PBXNativeTarget "ConsoleExample" */;
+			buildPhases = (
+				CompilePhase_ConsoleExample /* Sources */,
+				"___LinkPhase_ConsoleExample" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Strand /* PBXTargetDependency */,
+				__Dependency_Polymorphic /* PBXTargetDependency */,
+				__Dependency_Core /* PBXTargetDependency */,
+				__Dependency_libc /* PBXTargetDependency */,
+				__Dependency_Console /* PBXTargetDependency */,
+			);
+			name = ConsoleExample;
+			productName = ConsoleExample;
+			productReference = "_____Product_ConsoleExample" /* <RelativePath:"ConsoleExample"> */;
+			productType = "com.apple.product-type.tool";
+		};
+		"______Target_Core" /* Core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Core" /* Build configuration list for PBXNativeTarget "Core" */;
+			buildPhases = (
+				CompilePhase_Core /* Sources */,
+				"___LinkPhase_Core" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_libc /* PBXTargetDependency */,
+			);
+			name = Core;
+			productName = Core;
+			productReference = "_____Product_Core" /* Core.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_Executable" /* Executable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Executable" /* Build configuration list for PBXNativeTarget "Executable" */;
+			buildPhases = (
+				CompilePhase_Executable /* Sources */,
+				"___LinkPhase_Executable" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Strand /* PBXTargetDependency */,
+				__Dependency_Polymorphic /* PBXTargetDependency */,
+				__Dependency_Core /* PBXTargetDependency */,
+				__Dependency_libc /* PBXTargetDependency */,
+				__Dependency_Console /* PBXTargetDependency */,
+				__Dependency_VaporToolbox /* PBXTargetDependency */,
+			);
+			name = Executable;
+			productName = Executable;
+			productReference = "_____Product_Executable" /* <RelativePath:"Executable"> */;
+			productType = "com.apple.product-type.tool";
+		};
+		"______Target_Polymorphic" /* Polymorphic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Polymorphic" /* Build configuration list for PBXNativeTarget "Polymorphic" */;
+			buildPhases = (
+				CompilePhase_Polymorphic /* Sources */,
+				"___LinkPhase_Polymorphic" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polymorphic;
+			productName = Polymorphic;
+			productReference = "_____Product_Polymorphic" /* Polymorphic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_Strand" /* Strand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Strand" /* Build configuration list for PBXNativeTarget "Strand" */;
+			buildPhases = (
+				CompilePhase_Strand /* Sources */,
+				"___LinkPhase_Strand" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Strand;
+			productName = Strand;
+			productReference = "_____Product_Strand" /* Strand.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_VaporToolbox" /* VaporToolbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_VaporToolbox" /* Build configuration list for PBXNativeTarget "VaporToolbox" */;
+			buildPhases = (
+				CompilePhase_VaporToolbox /* Sources */,
+				"___LinkPhase_VaporToolbox" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Strand /* PBXTargetDependency */,
+				__Dependency_Polymorphic /* PBXTargetDependency */,
+				__Dependency_Core /* PBXTargetDependency */,
+				__Dependency_libc /* PBXTargetDependency */,
+				__Dependency_Console /* PBXTargetDependency */,
+			);
+			name = VaporToolbox;
+			productName = VaporToolbox;
+			productReference = "_____Product_VaporToolbox" /* VaporToolbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_VaporToolboxTestSuite" /* VaporToolboxTestSuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_VaporToolboxTestSuite" /* Build configuration list for PBXNativeTarget "VaporToolboxTestSuite" */;
+			buildPhases = (
+				CompilePhase_VaporToolboxTestSuite /* Sources */,
+				"___LinkPhase_VaporToolboxTestSuite" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_Strand /* PBXTargetDependency */,
+				__Dependency_Polymorphic /* PBXTargetDependency */,
+				__Dependency_Core /* PBXTargetDependency */,
+				__Dependency_libc /* PBXTargetDependency */,
+				__Dependency_Console /* PBXTargetDependency */,
+				__Dependency_VaporToolbox /* PBXTargetDependency */,
+			);
+			name = VaporToolboxTestSuite;
+			productName = VaporToolboxTestSuite;
+			productReference = "_____Product_VaporToolboxTestSuite" /* <RelativePath:"VaporToolboxTestSuite.xctest"> */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"______Target_libc" /* libc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_libc" /* Build configuration list for PBXNativeTarget "libc" */;
+			buildPhases = (
+				CompilePhase_libc /* Sources */,
+				"___LinkPhase_libc" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libc;
+			productName = libc;
+			productReference = "_____Product_libc" /* libc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					C3C0F6C91D516E76000A71E4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7HLF49C4P5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "VaporToolbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"______Target_Strand" /* Strand */,
+				"______Target_Polymorphic" /* Polymorphic */,
+				"______Target_Core" /* Core */,
+				"______Target_libc" /* libc */,
+				"______Target_Console" /* Console */,
+				"______Target_ConsoleExample" /* ConsoleExample */,
+				"______Target_Executable" /* Executable */,
+				"______Target_VaporToolbox" /* VaporToolbox */,
+				"______Target_VaporToolboxTestSuite" /* VaporToolboxTestSuite */,
+				C3C0F6C91D516E76000A71E4 /* Vapor Toolbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3C0F6C81D516E76000A71E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C0F6D11D516E76000A71E4 /* Assets.xcassets in Resources */,
+				C3C0F6D41D516E76000A71E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3C0F6C61D516E76000A71E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C0F6CF1D516E76000A71E4 /* ViewController.swift in Sources */,
+				C33362C21D51899300AB5F9E /* WindowController.swift in Sources */,
+				C3C0F6CD1D516E76000A71E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Console /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Bar.swift" /* Bar/Bar.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Argument.swift" /* Command/Argument.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Command+Print.swift" /* Command/Command+Print.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Command.swift" /* Command/Command.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Group.swift" /* Command/Group.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Option.swift" /* Command/Option.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Runnable.swift" /* Command/Runnable.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Command/Value.swift" /* Command/Value.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Ask.swift" /* Console/Console+Ask.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Center.swift" /* Console/Console+Center.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Confirm.swift" /* Console/Console+Confirm.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Options.swift" /* Console/Console+Options.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Print.swift" /* Console/Console+Print.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console+Run.swift" /* Console/Console+Run.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Console.swift" /* Console/Console.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/ConsoleError.swift" /* Console/ConsoleError.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Stream/FileHandle+Stream.swift" /* Stream/FileHandle+Stream.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Stream/Pipe+Stream.swift" /* Stream/Pipe+Stream.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Stream/Stream.swift" /* Stream/Stream.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleColor+Terminal.swift" /* Terminal/ConsoleColor+Terminal.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/ConsoleStyle+Terminal.swift" /* Terminal/ConsoleStyle+Terminal.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/String+ANSI.swift" /* Terminal/String+ANSI.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal+Command.swift" /* Terminal/Terminal+Command.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Terminal/Terminal.swift" /* Terminal/Terminal.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Utilities/Bool+Polymorphic.swift" /* Utilities/Bool+Polymorphic.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Utilities/String+Trim.swift" /* Utilities/String+Trim.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Loading/Console+LoadingBar.swift" /* Bar/Loading/Console+LoadingBar.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Loading/LoadingBar.swift" /* Bar/Loading/LoadingBar.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Progress/Console+ProgressBar.swift" /* Bar/Progress/Console+ProgressBar.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Bar/Progress/ProgressBar.swift" /* Bar/Progress/ProgressBar.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Clear/ConsoleClear.swift" /* Console/Clear/ConsoleClear.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Color/ConsoleColor.swift" /* Console/Color/ConsoleColor.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Style/Console+ConsoleStyle.swift" /* Console/Style/Console+ConsoleStyle.swift in Sources */,
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/Console/Console/Style/ConsoleStyle.swift" /* Console/Style/ConsoleStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_ConsoleExample /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Console-0.4.0/Sources/ConsoleExample/main.swift" /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Core /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Array.swift" /* Array.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Bool+String.swift" /* Bool+String.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Collection+Safe.swift" /* Collection+Safe.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Dispatch.swift" /* Dispatch.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Equatable.swift" /* Equatable.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Extractable.swift" /* Extractable.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Lock.swift" /* Lock.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/PercentEncoding.swift" /* PercentEncoding.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Promise.swift" /* Promise.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Result.swift" /* Result.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Sequence.swift" /* Sequence.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/StaticDataBuffer.swift" /* StaticDataBuffer.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/String+CaseInsensitiveCompare.swift" /* String+CaseInsensitiveCompare.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/String.swift" /* String.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/UnsignedInteger.swift" /* UnsignedInteger.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Byte/Byte+Random.swift" /* Byte/Byte+Random.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Byte/Byte.swift" /* Byte/Byte.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Byte/ByteAliases.swift" /* Byte/ByteAliases.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Byte/Bytes+Base64.swift" /* Byte/Bytes+Base64.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Byte/Bytes.swift" /* Byte/Bytes.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Byte/BytesConvertible.swift" /* Byte/BytesConvertible.swift in Sources */,
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/Core/Byte/BytesSlice+PatternMatching.swift" /* Byte/BytesSlice+PatternMatching.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Executable /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Sources/Executable/main.swift /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Polymorphic /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Polymorphic-0.3.1/Sources/Polymorphic.swift" /* Polymorphic.swift in Sources */,
+				"__src_cc_ref_Packages/Polymorphic-0.3.1/Sources/String+Polymorphic.swift" /* String+Polymorphic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Strand /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Strand-1.6.0/Sources/Strand.swift" /* Strand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_VaporToolbox /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Sources/VaporToolbox/Build.swift /* Build.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/Clean.swift /* Clean.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/DockerBuild.swift /* DockerBuild.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/DockerEnter.swift /* DockerEnter.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/DockerInit.swift /* DockerInit.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/DockerRun.swift /* DockerRun.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/Error.swift /* Error.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/Fetch.swift /* Fetch.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/HerokuInit.swift /* HerokuInit.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/HerokuPush.swift /* HerokuPush.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/New.swift /* New.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/Run.swift /* Run.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/SelfInstall.swift /* SelfInstall.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/SelfUpdate.swift /* SelfUpdate.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/Test.swift /* Test.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/Utilities.swift /* Utilities.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/Version.swift /* Version.swift in Sources */,
+				__src_cc_ref_Sources/VaporToolbox/Xcode.swift /* Xcode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_VaporToolboxTestSuite /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Tests/VaporToolbox/BuildTests.swift /* BuildTests.swift in Sources */,
+				__src_cc_ref_Tests/VaporToolbox/CleanTests.swift /* CleanTests.swift in Sources */,
+				__src_cc_ref_Tests/VaporToolbox/DockerTests.swift /* DockerTests.swift in Sources */,
+				__src_cc_ref_Tests/VaporToolbox/HelpTests.swift /* HelpTests.swift in Sources */,
+				__src_cc_ref_Tests/VaporToolbox/HerokuTests.swift /* HerokuTests.swift in Sources */,
+				__src_cc_ref_Tests/VaporToolbox/NewTests.swift /* NewTests.swift in Sources */,
+				__src_cc_ref_Tests/VaporToolbox/RunTests.swift /* RunTests.swift in Sources */,
+				__src_cc_ref_Tests/VaporToolbox/StringExtTests.swift /* StringExtTests.swift in Sources */,
+				__src_cc_ref_Tests/VaporToolbox/UpdateTests.swift /* UpdateTests.swift in Sources */,
+				__src_cc_ref_Tests/VaporToolbox/UtilsTests.swift /* UtilsTests.swift in Sources */,
+				__src_cc_ref_Tests/VaporToolbox/Utilities/TestConsole.swift /* Utilities/TestConsole.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_libc /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Core-0.3.0/Sources/libc/libc.swift" /* libc.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		__Dependency_Console /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Console" /* Console */;
+			targetProxy = C3C0F6C41D516E5D000A71E4 /* PBXContainerItemProxy */;
+		};
+		__Dependency_Core /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Core" /* Core */;
+			targetProxy = C3C0F6C21D516E5D000A71E4 /* PBXContainerItemProxy */;
+		};
+		__Dependency_Polymorphic /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Polymorphic" /* Polymorphic */;
+			targetProxy = C3C0F6C11D516E5D000A71E4 /* PBXContainerItemProxy */;
+		};
+		__Dependency_Strand /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Strand" /* Strand */;
+			targetProxy = C3C0F6C01D516E5D000A71E4 /* PBXContainerItemProxy */;
+		};
+		__Dependency_VaporToolbox /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_VaporToolbox" /* VaporToolbox */;
+			targetProxy = C3C0F6C51D516E5D000A71E4 /* PBXContainerItemProxy */;
+		};
+		__Dependency_libc /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_libc" /* libc */;
+			targetProxy = C3C0F6C31D516E5D000A71E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3C0F6D21D516E76000A71E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3C0F6D31D516E76000A71E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3C0F6D71D516E76000A71E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 7HLF49C4P5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Vapor Toolbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tannernelson.Vapor-Toolbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C3C0F6D81D516E76000A71E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 7HLF49C4P5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Vapor Toolbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tannernelson.Vapor-Toolbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_Console /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = VaporToolbox.xcodeproj/Console_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Console;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_ConsoleExample /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_Core /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = VaporToolbox.xcodeproj/Core_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Core;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_Executable /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_Polymorphic /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = VaporToolbox.xcodeproj/Polymorphic_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Polymorphic;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_Strand /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = VaporToolbox.xcodeproj/Strand_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Strand;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_VaporToolbox /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = VaporToolbox.xcodeproj/VaporToolbox_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = VaporToolbox;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_VaporToolboxTestSuite /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = VaporToolbox.xcodeproj/VaporToolboxTestSuite_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_libc /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = VaporToolbox.xcodeproj/libc_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = libc;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		"___DebugConf_Console" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = VaporToolbox.xcodeproj/Console_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Console;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_ConsoleExample" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_Core" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = VaporToolbox.xcodeproj/Core_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Core;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_Executable" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_Polymorphic" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = VaporToolbox.xcodeproj/Polymorphic_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Polymorphic;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_Strand" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = VaporToolbox.xcodeproj/Strand_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Strand;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_VaporToolbox" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = VaporToolbox.xcodeproj/VaporToolbox_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = VaporToolbox;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_VaporToolboxTestSuite" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = VaporToolbox.xcodeproj/VaporToolboxTestSuite_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_libc" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = VaporToolbox.xcodeproj/libc_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = libc;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_VaporToolbox.xcodeproj/Configs/Project.xcconfig /* VaporToolbox.xcodeproj/Configs/Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_VaporToolbox.xcodeproj/Configs/Project.xcconfig /* VaporToolbox.xcodeproj/Configs/Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3C0F6D61D516E76000A71E4 /* Build configuration list for PBXNativeTarget "Vapor Toolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3C0F6D71D516E76000A71E4 /* Debug */,
+				C3C0F6D81D516E76000A71E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"___RootConfs_" /* Build configuration list for PBXProject "VaporToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Console" /* Build configuration list for PBXNativeTarget "Console" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Console" /* Debug */,
+				_ReleaseConf_Console /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_ConsoleExample" /* Build configuration list for PBXNativeTarget "ConsoleExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_ConsoleExample" /* Debug */,
+				_ReleaseConf_ConsoleExample /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Core" /* Build configuration list for PBXNativeTarget "Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Core" /* Debug */,
+				_ReleaseConf_Core /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Executable" /* Build configuration list for PBXNativeTarget "Executable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Executable" /* Debug */,
+				_ReleaseConf_Executable /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Polymorphic" /* Build configuration list for PBXNativeTarget "Polymorphic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Polymorphic" /* Debug */,
+				_ReleaseConf_Polymorphic /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Strand" /* Build configuration list for PBXNativeTarget "Strand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Strand" /* Debug */,
+				_ReleaseConf_Strand /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_VaporToolbox" /* Build configuration list for PBXNativeTarget "VaporToolbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_VaporToolbox" /* Debug */,
+				_ReleaseConf_VaporToolbox /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_VaporToolboxTestSuite" /* Build configuration list for PBXNativeTarget "VaporToolboxTestSuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_VaporToolboxTestSuite" /* Debug */,
+				_ReleaseConf_VaporToolboxTestSuite /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_libc" /* Build configuration list for PBXNativeTarget "libc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_libc" /* Debug */,
+				_ReleaseConf_libc /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}

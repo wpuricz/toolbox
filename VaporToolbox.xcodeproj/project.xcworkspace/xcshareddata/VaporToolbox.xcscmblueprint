@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "069B0A7752E0C601B5B7ADC86D2FABC4D6B4E139",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "069B0A7752E0C601B5B7ADC86D2FABC4D6B4E139" : 0,
+    "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8E6F055F-B891-4FDB-BA70-EEB2AA7BE7C0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "069B0A7752E0C601B5B7ADC86D2FABC4D6B4E139" : "toolbox\/",
+    "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA" : "toolbox\/Packages\/Strand-1.6.0\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VaporToolbox",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "VaporToolbox.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:qutheory\/vapor-toolbox.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "069B0A7752E0C601B5B7ADC86D2FABC4D6B4E139"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ketzusaka\/Strand.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA"
+    }
+  ]
+}
