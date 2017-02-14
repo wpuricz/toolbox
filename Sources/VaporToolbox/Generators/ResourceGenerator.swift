@@ -23,6 +23,9 @@ public final class ResourceGenerator: AbstractGenerator {
 
         let controllerGenerator = ControllerGenerator(console: console)
         try controllerGenerator.generate(arguments: argumentsToPassOn)
+        
+        let preparationGenerator = MigrationGenerator(console: console)
+        preparationGenerator.appendPreparation(name: argumentsToPassOn.first!)
     }
 
 }
