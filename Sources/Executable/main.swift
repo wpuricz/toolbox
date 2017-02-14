@@ -37,6 +37,7 @@ do {
             ViewGenerator(console: terminal),
             ControllerGenerator(console: terminal),
             ResourceGenerator(console: terminal),
+            MigrationGenerator(console: terminal),
         ], help: [
             "Commands to help generate classes and resources for your project."
         ]),
