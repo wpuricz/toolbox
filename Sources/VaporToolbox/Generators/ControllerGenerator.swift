@@ -156,7 +156,7 @@ public final class ControllerGenerator: AbstractGenerator {
 
     private class func controllerNameForResource(_ name: String) -> String {
         let resourceName = name.capitalized
-        let className = resourceName.pluralized + "Controller"
+        let className = resourceName + "Controller"
         return className
     }
 
