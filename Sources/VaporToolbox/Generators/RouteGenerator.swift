@@ -51,7 +51,7 @@ public class RouteGenerator: AbstractGenerator {
         console.info("Generating route for resource '\(resourceName.pluralized)'")
         let template = try loadTemplate(atPath: defaultTemplatesDirectory + "ResourceRoutesTemplate.swift",
                                         fallbackURL: URL(string: defaultTemplatesURLString)!)
-        let routeName = resourceName.pluralized
+        let routeName = resourceName
         let handler = "\(routeName.capitalized)Controller()"
         let routeText = routeString(fromTemplate: template, path: routeName, handler: handler)
         try addRoute(routeText)
@@ -92,7 +92,7 @@ public class RouteGenerator: AbstractGenerator {
 
     private func routeString(fromTemplate template: File, path: String, handler: String, method: String = "") -> String {
         var contents = template.contents
-        contents = contents.replacingOccurrences(of: "_ROUTE_", with: path)
+        contents = contents.replacingOccurrences(of: "_ROUTE_", with: path.pluralized)
         contents = contents.replacingOccurrences(of: "_METHOD_", with: method)
         contents = contents.replacingOccurrences(of: "_HANDLER_", with: handler)
         return contents
